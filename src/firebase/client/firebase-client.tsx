@@ -50,6 +50,7 @@ interface IFirebaseUserOp {
   message: string;
 }
 
+//TODO: Type of User :- [Either JobPoster or JobSeeker]
 export const createNewUser = async (
   email: string,
   password: string
@@ -73,6 +74,7 @@ export const signInUser = async (
   return signInWithEmailAndPassword(auth, email, password)
     .then((user) => {
       // Signed in
+      console.log(user.user);
       return { user, code: '', message: '', error: false };
     })
     .catch((error) => {
