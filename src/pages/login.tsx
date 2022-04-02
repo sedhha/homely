@@ -2,6 +2,7 @@ import Client from '@fb-client';
 import {
   firebaseUsers,
   FirebaseUserType,
+  IFirebaseClaims,
 } from '@homely-interfaces/Firebase/Auth';
 import React, { useEffect, useState } from 'react';
 
@@ -38,7 +39,8 @@ export default function Login() {
       setLoading(false);
       if (mounted) {
         if (response.error) {
-          console.log('Metadata = ', response.metadata);
+          //To Use Metadata:
+          // const metadata = response.metadata as IFirebaseClaims;
           setStatus({
             message: response.message + ' ' + JSON.stringify(response.metadata),
             show: true,

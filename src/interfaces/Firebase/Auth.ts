@@ -10,3 +10,7 @@ export interface IRegistrationForm {
   password: string;
   userType: FirebaseUserType;
 }
+
+export interface IFirebaseClaims {
+  userType: FirebaseUserType;
+}
