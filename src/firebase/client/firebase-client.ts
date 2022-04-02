@@ -9,6 +9,11 @@ import {
   UserCredential,
   browserLocalPersistence,
 } from 'firebase/auth';
+import {
+  FirebaseUserType,
+  IRegistrationForm,
+} from '@homely-interfaces/Firebase/Auth';
+import { IResponse } from '@homely-interfaces/Response/Response';
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -48,41 +53,54 @@ interface IFirebaseUserOp {
   error: boolean;
   code: string;
   message: string;
+  metadata: any;
 }
-
-//TODO: Type of User :- [Either JobPoster or JobSeeker]
-export const createNewUser = async (
-  email: string,
-  password: string
-): Promise<IFirebaseUserOp> => {
-  return createUserWithEmailAndPassword(auth, email, password)
-    .then((user) => {
-      return { user, code: '', message: '', error: false };
-    })
-    .catch((error: FirebaseError) => {
-      const code = error.message;
-      const message = error.message;
-      return { code, message, error: true };
-      // ..
-    });
-};
 
 export const signInUser = async (
   email: string,
   password: string
 ): Promise<IFirebaseUserOp> => {
   return signInWithEmailAndPassword(auth, email, password)
-    .then((user) => {
+    .then(async (user) => {
       // Signed in
-      console.log(user.user);
-      return { user, code: '', message: '', error: false };
+      return user.user.getIdTokenResult().then((result) => {
+        return {
+          user,
+          code: '',
+          message: '',
+          metadata: result.claims,
+          error: false,
+        };
+      });
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      return { code: errorCode, message: errorMessage, error: true };
+      return {
+        code: errorCode,
+        message: errorMessage,
+        error: true,
+        metadata: {},
+      };
     });
 };
 
-export default { app, storage, auth, createNewUser, signInUser };
+export const registerFirebaseUser = async (
+  email: string,
+  password: string,
+  userType: FirebaseUserType
+): Promise<IResponse> => {
+  return fetch('/api/register-user', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      email,
+      password,
+      userType,
+    } as IRegistrationForm),
+  }).then((response) => response.json().then((data) => data as IResponse));
+};
+export default { app, storage, auth, registerFirebaseUser, signInUser };
 export { analytics };
