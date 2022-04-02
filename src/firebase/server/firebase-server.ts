@@ -19,10 +19,14 @@ if (admin.apps.length === 0)
     databaseURL: process.env.FB_ADMIN_RTDB_URL,
   });
 
+const storagePaths = {
+  JOBS: 'jobs',
+};
+
 const db = admin.firestore();
 const auth = admin.auth();
 const storage = admin.storage();
 const rdb = admin.database();
 
-const Server = { auth, db, storage, rdb };
+const Server = { auth, db, storage, rdb, storagePaths };
 export default Server;

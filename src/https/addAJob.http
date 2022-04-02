@@ -1,0 +1,13 @@
+# For Job Posters: Add a Job Posting
+POST http://localhost:3000/api/add-job HTTP/1.1
+Content-Type: application/json
+
+{
+    "jobTitle":"Walmart Executive",
+    "description":"Manage and monitor day to day activies in Walmart",
+    "deadline": 1648938875946,
+    "workHours":8,
+    "maxCapacity":5,
+    "applied": 0,
+    "location": "New Delhi, India"
+}
