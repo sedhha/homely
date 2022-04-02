@@ -39,14 +39,22 @@ export default function Login() {
       setLoading(false);
       if (mounted) {
         if (response.error) {
-          //To Use Metadata:
-          // const metadata = response.metadata as IFirebaseClaims;
           setStatus({
-            message: response.message + ' ' + JSON.stringify(response.metadata),
+            message: response.message,
             show: true,
           });
         } else {
-          setStatus({ message: 'User signed in successfully', show: true });
+          // To Use Metadata:
+          const metadata = response.metadata as IFirebaseClaims;
+          // To Check if User is Job Seeker
+          // metadata.userType === firebaseUsers.jobSeeker
+          setStatus({
+            message:
+              'User signed in successfully' +
+              ' User Type: ' +
+              metadata.userType,
+            show: true,
+          });
         }
       }
     });
