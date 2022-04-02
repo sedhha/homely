@@ -1,4 +1,8 @@
 import Client from '@fb-client';
+import {
+  firebaseUsers,
+  FirebaseUserType,
+} from '@homely-interfaces/Firebase/Auth';
 import React, { useEffect, useState } from 'react';
 
 export default function Login() {
@@ -11,17 +15,19 @@ export default function Login() {
   useEffect(() => {
     return () => setMounted(false);
   }, []);
-  const registerHandler = () => {
+  const registerUser = () => {
     setLoading(true);
-    Client.createNewUser(email, password).then((response) => {
-      if (mounted) {
-        if (response.error) {
-          setStatus({ message: response.message, show: true });
-          setLoading(false);
-        } else {
-          setStatus({ message: 'User created successfully', show: true });
-          setLoading(false);
-        }
+    Client.registerFirebaseUser(
+      email,
+      password,
+      firebaseUsers.jobSeeker as FirebaseUserType
+    ).then((response) => {
+      if (response.error) {
+        setStatus({ message: response.message, show: true });
+        setLoading(false);
+      } else {
+        setStatus({ message: 'Successfully registered', show: true });
+        setLoading(false);
       }
     });
   };
@@ -29,13 +35,16 @@ export default function Login() {
   const signInUserHandler = () => {
     setLoading(true);
     Client.signInUser(email, password).then((response) => {
+      setLoading(false);
       if (mounted) {
         if (response.error) {
-          setStatus({ message: response.message, show: true });
-          setLoading(false);
+          console.log('Metadata = ', response.metadata);
+          setStatus({
+            message: response.message + ' ' + JSON.stringify(response.metadata),
+            show: true,
+          });
         } else {
           setStatus({ message: 'User signed in successfully', show: true });
-          setLoading(false);
         }
       }
     });
@@ -62,7 +71,7 @@ export default function Login() {
       <br />
       <button onClick={signInUserHandler}>Login</button>
       <br />
-      <button onClick={registerHandler}>Sign Up</button>
+      <button onClick={registerUser}>Sign Up</button>
       <br />
 
       {status.show && <p>{status.message}</p>}
