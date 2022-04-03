@@ -1,8 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Text } from '@chakra-ui/react';
-
-// import backgroundVideo from '../styles/background.mp4';
 
 const IndexPage: NextPage = () => {
   return (
@@ -15,12 +12,12 @@ const IndexPage: NextPage = () => {
 
       <main>
         <div className='backgroundVideo'>
-          {/* <video autoPlay loop muted id='video'>
-            <source src={backgroundVideo} type='video/mp4'>
-          </video> */}
-        </div>
-        <div className='container'>
-          <Text fontSize='6xl'>Welcome Page</Text>
+          <video autoPlay loop muted id='video'>
+            <source src={'/background.mp4'} type='video/mp4' />
+          </video>
+          <div className='HomelyWelcomePage'>
+            <h1 className='HomelyHeading'>Welcome to Homely</h1>
+          </div>
         </div>
       </main>
     </div>

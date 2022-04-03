@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 import {
   Flex,
   Heading,
@@ -15,13 +15,12 @@ import {
   useToast,
   InputRightElement,
   Spinner,
-} from "@chakra-ui/react";
-import { FaUserAlt, FaLock } from "react-icons/fa";
-import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
-import Client from "@fb-client";
-import { IFirebaseClaims } from "@homely-interfaces/Firebase/Auth";
-import { updateUser } from "@redux-slices/userSlice";
-import { useRouter } from "next/router";
+} from '@chakra-ui/react';
+import { FaUserAlt, FaLock } from 'react-icons/fa';
+import { useAppSelector, useAppDispatch } from '@redux-store/hooks';
+import Client from '@fb-client';
+import { updateUser } from '@redux-slices/userSlice';
+import { useRouter } from 'next/router';
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
@@ -33,8 +32,8 @@ const App = () => {
 
   const { authToken } = useAppSelector((state) => state.user);
   const [mounted, setMounted] = useState(true);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const dispatch = useAppDispatch();
   const toast = useToast();
@@ -44,7 +43,7 @@ const App = () => {
     return () => setMounted(false);
   }, []);
 
-  const navigateToRegister = () => router.push("/register");
+  const navigateToRegister = () => router.push('/register');
 
   const signInUserHandler = () => {
     setLoading(true);
@@ -53,9 +52,9 @@ const App = () => {
       if (mounted) {
         if (response.error) {
           toast({
-            title: "Registration Failure",
-            description: "Registration Failed. " + response.message,
-            status: "error",
+            title: 'Registration Failure',
+            description: 'Registration Failed. ' + response.message,
+            status: 'error',
             duration: 5000,
             isClosable: true,
           });
@@ -67,7 +66,7 @@ const App = () => {
               email: email,
             })
           );
-          router.push("/joblist");
+          router.push('/joblist');
         }
       }
     });
@@ -75,39 +74,36 @@ const App = () => {
 
   return (
     <Flex
-      flexDirection="column"
-      width="100wh"
-      height="100vh"
-      backgroundColor="gray.200"
-      justifyContent="center"
-      alignItems="center"
-    >
+      flexDirection='column'
+      width='100wh'
+      height='100vh'
+      backgroundColor='gray.200'
+      justifyContent='center'
+      alignItems='center'>
       <Stack
-        flexDir="column"
-        mb="2"
-        justifyContent="center"
-        alignItems="center"
-      >
-        <Avatar bg="teal.500" />
-        <Heading color="teal.400">Welcome To Homely</Heading>
-        <Box minW={{ base: "90%", md: "468px" }}>
+        flexDir='column'
+        mb='2'
+        justifyContent='center'
+        alignItems='center'>
+        <Avatar bg='teal.500' />
+        <Heading color='teal.400'>Welcome To Homely</Heading>
+        <Box minW={{ base: '90%', md: '468px' }}>
           <form>
             <Stack
               spacing={4}
-              p="1rem"
-              backgroundColor="whiteAlpha.900"
-              boxShadow="md"
-            >
+              p='1rem'
+              backgroundColor='whiteAlpha.900'
+              boxShadow='md'>
               <FormControl>
                 <InputGroup>
                   <InputLeftElement
-                    pointerEvents="none"
-                    children={<CFaUserAlt color="gray.300" />}
+                    pointerEvents='none'
+                    children={<CFaUserAlt color='gray.300' />}
                   />
                   <Input
-                    type="email"
-                    placeholder="email address"
-                    id="email"
+                    type='email'
+                    placeholder='email address'
+                    id='email'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -116,37 +112,36 @@ const App = () => {
               <FormControl>
                 <InputGroup>
                   <InputLeftElement
-                    pointerEvents="none"
-                    color="gray.300"
-                    children={<CFaLock color="gray.300" />}
+                    pointerEvents='none'
+                    color='gray.300'
+                    children={<CFaLock color='gray.300' />}
                   />
                   <Input
-                    type={showPassword ? "text" : "password"}
-                    placeholder="Password"
+                    type={showPassword ? 'text' : 'password'}
+                    placeholder='Password'
                     value={password}
-                    id="password"
+                    id='password'
                     onChange={(e) => setPassword(e.target.value)}
                   />
-                  <InputRightElement width="4.5rem">
-                    <Button h="1.75rem" size="sm" onClick={handleShowClick}>
-                      {showPassword ? "Hide" : "Show"}
+                  <InputRightElement width='4.5rem'>
+                    <Button h='1.75rem' size='sm' onClick={handleShowClick}>
+                      {showPassword ? 'Hide' : 'Show'}
                     </Button>
                   </InputRightElement>
                 </InputGroup>
               </FormControl>
               {loading ? (
-                <Flex width="full" justifyContent="center" alignItems="center">
-                  <Spinner color="teal" />
+                <Flex width='full' justifyContent='center' alignItems='center'>
+                  <Spinner color='teal' />
                 </Flex>
               ) : (
                 <Button
                   borderRadius={0}
-                  type="submit"
-                  variant="solid"
-                  colorScheme="teal"
+                  type='submit'
+                  variant='solid'
+                  colorScheme='teal'
                   onClick={signInUserHandler}
-                  width="full"
-                >
+                  width='full'>
                   Login
                 </Button>
               )}
@@ -155,8 +150,8 @@ const App = () => {
         </Box>
       </Stack>
       <Box>
-        New to us?{" "}
-        <Link color="teal.500" onClick={navigateToRegister}>
+        New to us?{' '}
+        <Link color='teal.500' onClick={navigateToRegister}>
           Sign Up
         </Link>
       </Box>
