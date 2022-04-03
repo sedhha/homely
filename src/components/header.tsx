@@ -15,6 +15,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useAppSelector } from '@redux-store/hooks';
+import Client from '@fb-client';
 
 const Links = [
   {
@@ -128,8 +129,16 @@ export default function Dashboard() {
               colorScheme={"teal"}
               size={"sm"}
               mr={4}
+<<<<<<< HEAD
               rightIcon={<ArrowForwardIcon />}
             >
+=======
+              onClick={() => {
+                Client.auth.signOut();
+                router.push('/login');
+              }}
+              rightIcon={<ArrowForwardIcon />}>
+>>>>>>> 4107fc447a8d18b253b6a30025eacedbad16d977
               Log Out
             </Button>
             <Avatar size={'sm'} src={`https://i.pravatar.cc/150?u=${email}`} />
