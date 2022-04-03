@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Header from "src/components/header";
 import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
-import { Input, Button } from "@chakra-ui/react";
+import { Input, Button, Text } from "@chakra-ui/react";
 
 const profile: NextPage = () => {
   const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
@@ -9,7 +9,8 @@ const profile: NextPage = () => {
     <>
       <Header />
       <div className="container-lg">
-        <h1>Profile</h1>
+        <Text fontSize="6xl">Profile</Text>
+
         <form>
           <div className="form-group">
             <label>Name</label>

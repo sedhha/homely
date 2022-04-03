@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useEffect, useState } from "react";
 import Header from "../components/header";
 import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
-
+import { Input, Button, Text } from "@chakra-ui/react";
 const IndexPage: NextPage = () => {
   const [jobList, setJobList] = useState([]);
   const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
@@ -30,6 +30,7 @@ const IndexPage: NextPage = () => {
     <>
       <Header />
       <div className="container-lg">
+        <Text fontSize="6xl">Job List</Text>
         {/* <p>{authToken}</p> */}
         <br />
         <table className="table table-hover">
@@ -50,8 +51,11 @@ const IndexPage: NextPage = () => {
                   <th>{job["deadline"]}</th>
                   <th>{job["location"]}</th>
                   <th>
-                    {isLoggedIn ? <button className="btn btn-outline-primary">Apply</button> : <></>}
-                    
+                    {isLoggedIn ? (
+                      <button className="btn btn-outline-primary">Apply</button>
+                    ) : (
+                      <></>
+                    )}
                   </th>
                 </tr>
               ))

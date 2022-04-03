@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Header from "src/components/header";
-
+import { Text } from "@chakra-ui/react";
 import JobFields from "../mocks/jobFields.json";
 
 const Applications: NextPage = () => {
@@ -11,7 +11,7 @@ const Applications: NextPage = () => {
       <Header />
       <br />
       <div className="container">
-        <h1>My Applications</h1>
+        <Text fontSize="6xl">My Applications</Text>
         <table className="table table-hover">
           <thead>
             <tr>
