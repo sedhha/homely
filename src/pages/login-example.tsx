@@ -28,7 +28,8 @@ export default function Login() {
     Client.registerFirebaseUser(
       email,
       password,
-      firebaseUsers.jobSeeker as FirebaseUserType
+      firebaseUsers.jobSeeker as FirebaseUserType,
+      ''
     ).then((response) => {
       if (response.error) {
         setStatus({ message: response.message, show: true });

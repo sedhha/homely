@@ -1,17 +1,15 @@
-import type { NextPage } from "next";
-import Header from "src/components/header";
+import type { NextPage } from 'next';
+import Header from 'src/components/header';
 
-import JobFields from "../mocks/jobFields.json";
+import JobFields from '../mocks/jobFields.json';
 
 const Applications: NextPage = () => {
-  console.log(JobFields);
-
   return (
     <>
       <Header />
-      <div className="container">
+      <div className='container'>
         <h1>My Applications</h1>
-        <table className="table table-hover">
+        <table className='table table-hover'>
           <thead>
             <tr>
               <th>Job Title</th>
@@ -21,13 +19,13 @@ const Applications: NextPage = () => {
             </tr>
           </thead>
           <tbody>
-            {JobFields.map((jobfield) => (
-              <tr>
+            {JobFields.map((jobfield, id) => (
+              <tr key={id}>
                 <th>{jobfield.jobTitle}</th>
                 <th>{jobfield.description}</th>
-                <th>{new Date(jobfield.deadline).toLocaleDateString()}</th>
-                
-                <th>{"PENDIENT"}</th>
+                <th>{new Date(jobfield.deadline).toDateString()}</th>
+
+                <th>{'PENDIENT'}</th>
               </tr>
             ))}
           </tbody>

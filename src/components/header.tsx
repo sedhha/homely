@@ -63,7 +63,6 @@ export default function Dashboard() {
   const router = useRouter();
 
   const navigateToCallback = (url: string) => {
-    console.log(url);
     router.push(url);
   };
 
@@ -140,8 +139,6 @@ export default function Dashboard() {
           </Box>
         ) : null}
       </Box>
-
-      <Box p={4}>Main Content Here</Box>
     </>
   );
 }

@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
-import { useEffect, useState } from "react";
-import Header from "../components/header";
-import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
+import type { NextPage } from 'next';
+import { useEffect, useState } from 'react';
+import Header from '../components/header';
+import { useAppSelector, useAppDispatch } from '@redux-store/hooks';
 
 const IndexPage: NextPage = () => {
   const [jobList, setJobList] = useState([]);
@@ -9,16 +9,16 @@ const IndexPage: NextPage = () => {
 
   useEffect(() => {
     const requestOptions = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         token: authToken,
       }),
     };
 
-    fetch("http://localhost:3000/api/get-available-jobs", requestOptions).then(
+    fetch('http://localhost:3000/api/get-available-jobs', requestOptions).then(
       (res) => {
-        res.json().then((data) => setJobList(data["payload"]));
+        res.json().then((data) => setJobList(data['payload']));
         console.log(res);
       }
     );
@@ -29,10 +29,10 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <Header />
-      <div className="container-lg">
+      <div className='container-lg'>
         {/* <p>{authToken}</p> */}
         <br />
-        <table className="table table-hover">
+        <table className='table table-hover'>
           <thead>
             <tr>
               <th>Job Title</th>
@@ -43,15 +43,18 @@ const IndexPage: NextPage = () => {
           </thead>
           <tbody>
             {jobList.length > 0 ? (
-              jobList.map((job) => (
-                <tr>
-                  <th>{job["jobTitle"]}</th>
-                  <th>{job["description"]}</th>
-                  <th>{job["deadline"]}</th>
-                  <th>{job["location"]}</th>
+              jobList.map((job, key) => (
+                <tr key={key}>
+                  <th>{job['jobTitle']}</th>
+                  <th>{job['description']}</th>
+                  <th>{job['deadline']}</th>
+                  <th>{job['location']}</th>
                   <th>
-                    {isLoggedIn ? <button className="btn btn-outline-primary">Apply</button> : <></>}
-                    
+                    {isLoggedIn ? (
+                      <button className='btn btn-outline-primary'>Apply</button>
+                    ) : (
+                      <></>
+                    )}
                   </th>
                 </tr>
               ))

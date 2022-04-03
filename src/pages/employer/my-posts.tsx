@@ -1,14 +1,14 @@
-import type { NextPage } from "next";
-import Link from "next/link";
+import type { NextPage } from 'next';
+import Link from 'next/link';
 
-import Header from "src/components/header";
+import Header from 'src/components/header';
 const MyPosts: NextPage = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className='container'>
         <h1>My Job Posts</h1>
-        <table className="table table-hover">
+        <table className='table table-hover'>
           <thead>
             <tr>
               <th>Job Title</th>
@@ -17,15 +17,15 @@ const MyPosts: NextPage = () => {
             </tr>
           </thead>
           <tbody>
-          <tr>
+            <tr>
               <th>Sample Job</th>
               <th>Sample Description</th>
               <th>Tomorrow</th>
               <th>
-                <Link href={} className="btn btn-primary">Edit</Link>
+                <Link href={'/'}>Edit</Link>
               </th>
               <th>
-                <button className="btn btn-primary">Check Applications</button>
+                <button className='btn btn-primary'>Check Applications</button>
               </th>
             </tr>
           </tbody>
