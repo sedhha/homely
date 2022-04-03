@@ -103,6 +103,7 @@ const App = () => {
                   <Input
                     type='email'
                     placeholder='email address'
+                    id='email'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -119,6 +120,7 @@ const App = () => {
                     type={showPassword ? 'text' : 'password'}
                     placeholder='Password'
                     value={password}
+                    id='password'
                     onChange={(e) => setPassword(e.target.value)}
                   />
                   <InputRightElement width='4.5rem'>
