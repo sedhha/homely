@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 import {
   Box,
   Flex,
@@ -9,32 +9,32 @@ import {
   useDisclosure,
   useColorModeValue,
   Stack,
-} from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, ArrowForwardIcon } from '@chakra-ui/icons';
-import Image from 'next/image';
-import NextLink from 'next/link';
-import { useRouter } from 'next/router';
+} from "@chakra-ui/react";
+import { HamburgerIcon, CloseIcon, ArrowForwardIcon } from "@chakra-ui/icons";
+import Image from "next/image";
+import NextLink from "next/link";
+import { useRouter } from "next/router";
 
 const Links = [
   {
-    label: 'Job List',
-    comparitor: 'joblist',
+    label: "Job List",
+    comparitor: "joblist",
   },
   {
-    label: 'Profile',
-    comparitor: 'profile',
+    label: "Profile",
+    comparitor: "profile",
   },
   {
-    label: 'Create Jobs',
-    comparitor: 'employer/create-jobs',
+    label: "Create Jobs",
+    comparitor: "employer/create-jobs",
   },
   {
-    label: 'My Job Posts',
-    comparitor: 'employer/my-posts',
+    label: "My Job Posts",
+    comparitor: "employer/my-posts",
   },
   {
-    label: 'Applications',
-    comparitor: 'applications',
+    label: "Applications",
+    comparitor: "applications",
   },
 ];
 
@@ -51,8 +51,9 @@ const NavLink = ({
 }) => {
   return (
     <div
-      className={isActive ? 'activeNavLink' : 'inactiveNavLink'}
-      onClick={() => router(href ?? '/providers')}>
+      className={isActive ? "activeNavLink" : "inactiveNavLink"}
+      onClick={() => router(href ?? "/providers")}
+    >
       {children}
     </div>
   );
@@ -68,70 +69,80 @@ export default function Dashboard() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
-            size={'md'}
+            size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={'Open Menu'}
-            display={{ md: 'none' }}
+            aria-label={"Open Menu"}
+            display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <HStack spacing={8} alignItems={'center'}>
+          <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <NextLink href='/' passHref>
+              <NextLink href="/" passHref>
                 <div
                   style={{
-                    width: '2rem',
-                    height: '2rem',
-                    position: 'relative',
-                  }}>
+                    width: "2rem",
+                    height: "2rem",
+                    position: "relative",
+                  }}
+                >
                   <Image
-                    alt='Homely'
-                    src={'/logo.svg'}
-                    layout='fill'
-                    objectFit='contain'
-                    style={{ cursor: 'pointer' }}
+                    alt="Homely"
+                    src={"/logo.svg"}
+                    layout="fill"
+                    objectFit="contain"
+                    style={{ cursor: "pointer" }}
                   />
                 </div>
               </NextLink>
             </Box>
             <HStack
-              as={'nav'}
+              as={"nav"}
               spacing={4}
-              display={{ base: 'none', md: 'flex' }}>
+              display={{ base: "none", md: "flex" }}
+            >
               {Links.map((link) => (
                 <NavLink
                   key={link.comparitor}
                   router={navigateToCallback}
                   href={`/${link.comparitor}`}
-                  isActive={router.pathname.includes(link.comparitor)}>
+                  isActive={router.pathname.includes(link.comparitor)}
+                >
                   {link.label}
                 </NavLink>
               ))}
             </HStack>
           </HStack>
-          <Flex alignItems={'center'}>
+          <Flex
+            alignItems={"center"}
+            onClick={() => {
+              () => router.push("/login");
+            }}
+          >
             <Button
-              variant={'solid'}
-              colorScheme={'teal'}
-              size={'sm'}
+              variant={"solid"}
+              colorScheme={"teal"}
+              size={"sm"}
               mr={4}
-              rightIcon={<ArrowForwardIcon />}>
+              rightIcon={<ArrowForwardIcon />}
+            >
               Log Out
             </Button>
-            <Avatar size={'sm'} src={'https://i.pravatar.cc/500'} />
+            <Avatar size={"sm"} src={"https://i.pravatar.cc/500"} />
           </Flex>
         </Flex>
         {isOpen ? (
-          <Box pb={4} display={{ md: 'none' }}>
-            <Stack as={'nav'} spacing={4}>
+          <Box pb={4} display={{ md: "none" }}>
+            <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
                 <NavLink
                   key={link.comparitor}
                   router={navigateToCallback}
                   href={`/${link.comparitor}`}
-                  isActive={router.pathname.includes(link.comparitor)}>
+                  isActive={router.pathname.includes(link.comparitor)}
+                >
                   {link.label}
                 </NavLink>
               ))}

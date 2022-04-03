@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import DatePicker from "react-datepicker";
 import Header from "../../../components/header";
+import {Button} from "@chakra-ui/react"
 
 const EditPost: NextPage = () => {
   const deadline = 1649083773000;
@@ -24,11 +25,7 @@ const EditPost: NextPage = () => {
             />
           </div>
           <div className="form-group">
-            <label>Deadline</label>
-            <input type="text" className="form-control" value={"Tomorrow"} />
-          </div>
-          <div className="form-group">
-            <label>Deadline</label>
+            <label>Work Hours</label>
             <input type="text" className="form-control" value={"10"} />
           </div>
           <div className="form-group">
@@ -38,9 +35,18 @@ const EditPost: NextPage = () => {
               onChange={(date: Date) => {}}
             />
           </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
+          <br />
+
+          
+          <Button
+            borderRadius={0}
+            type='submit'
+            variant='solid'
+            colorScheme='teal'
+            width='full'>
+            {' '}
+            Update Job Post
+          </Button>
         </form>
       </div>
     </>
