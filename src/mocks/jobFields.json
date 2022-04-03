@@ -1,20 +1,10 @@
 [
   {
-    "jobTitle": "",
-    "description": "",
-    "deadline": 1517598400,
-    "workHours": 8,
-    "maxCapacity": 15,
-    "applied": 10,
-    "location": ""
-  },
-  {
-    "jobTitle": "Worker AT",
-    "description": "Worker Attempt Test",
-    "deadline": 1517598400,
-    "workHours": 8,
-    "maxCapacity": 15,
-    "applied": 1,
-    "location": "Brooklyn, NY"
+    "jobTitle":"Mc Donalds Servant",
+    "description":"Help on the front desk at Mc Donalds",
+    "deadline": 1650377823000,
+    "workHours":8,
+    "maxCapacity":5,
+    "location": "2241 Avenue U, Brooklyn NY"
   }
 ]

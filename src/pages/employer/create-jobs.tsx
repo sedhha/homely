@@ -9,7 +9,7 @@ import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
 const EditJob: NextPage = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [deadline, setDeadline] = useState("");
+  const [deadline, setDeadline] = useState(new Date());
   const [workHours, setWorkHours] = useState("");
   const [capacity, setCapacity] = useState("");
   const [location, setLocation] = useState("");
@@ -30,10 +30,9 @@ const EditJob: NextPage = () => {
         jobTitle: title,
         description,
         deadline: new Date(deadline).getTime(),
-        workHours: 9,
         capacity,
         location,
-        hours,
+        workHours,
       }),
     };
     fetch("http://localhost:3000/api/add-job", requestOptions).then((res) => {
@@ -100,9 +99,10 @@ const EditJob: NextPage = () => {
           <div className="form-group">
             <label>Deadline</label>
             <DatePicker
-              selected={startDate}
+              selected={deadline}
               onChange={(date: Date) => {
-                setStartDate(date);
+                setDeadline(date);
+                console.log(new Date(deadline).getTime())
               }}
             />
           </div>

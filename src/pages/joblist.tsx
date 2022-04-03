@@ -38,6 +38,7 @@ const IndexPage: NextPage = () => {
               <th>Job Title</th>
               <th>Description</th>
               <th>Deadline</th>
+              <th>Location</th>
             </tr>
           </thead>
           <tbody>
@@ -47,6 +48,7 @@ const IndexPage: NextPage = () => {
                   <th>{job["jobTitle"]}</th>
                   <th>{job["description"]}</th>
                   <th>{job["deadline"]}</th>
+                  <th>{job["location"]}</th>
                   <th>
                     {isLoggedIn ? <button className="btn btn-outline-primary">Apply</button> : <></>}
                     
