@@ -15,6 +15,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useAppSelector } from '@redux-store/hooks';
+import Client from '@fb-client';
 
 const Links = [
   {
@@ -119,6 +120,10 @@ export default function Dashboard() {
               colorScheme={'teal'}
               size={'sm'}
               mr={4}
+              onClick={() => {
+                Client.auth.signOut();
+                router.push('/login');
+              }}
               rightIcon={<ArrowForwardIcon />}>
               Log Out
             </Button>
