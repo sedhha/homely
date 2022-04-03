@@ -1,14 +1,6 @@
-# For Job Posters: Add a Job Posting
-POST http://localhost:3000/api/add-job HTTP/1.1
+POST http://localhost:3000/api/debug-api HTTP/1.1
 Content-Type: application/json
 
 {
-    "jobTitle":"Walmart Executive - 03",
-    "description":"Manage and monitor day to day activies in Walmart",
-    "deadline": 1648959990438,
-    "workHours":8,
-    "maxCapacity":5,
-    "applied": 0,
-    "location": "New Delhi, India",
     "token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ2NDExN2FjMzk2YmM3MWM4YzU5ZmI1MTlmMDEzZTJiNWJiNmM2ZTEiLCJ0eXAiOiJKV1QifQ.eyJ1c2VyVHlwZSI6IkpvYiBTZWVrZXIiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vaG9tZWx5LWRiOGUyIiwiYXVkIjoiaG9tZWx5LWRiOGUyIiwiYXV0aF90aW1lIjoxNjQ4OTM3MjI3LCJ1c2VyX2lkIjoiZGVrQkVFbHNaYlVGVDUyY1l0RmczbURVbUg5MiIsInN1YiI6ImRla0JFRWxzWmJVRlQ1MmNZdEZnM21EVW1IOTIiLCJpYXQiOjE2NDg5NTQwOTYsImV4cCI6MTY0ODk1NzY5NiwiZW1haWwiOiJhY3Rpdml0eS5zY2hvb2xzaDJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImFjdGl2aXR5LnNjaG9vbHNoMkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.NwafONAB7FDWTcCY5abVGYJr9QeFkAgFaUW6i0ezKERfiJeo6htOlJqa32PeFbgc9lgAZWd7F0-99sBIRHQxM0oOIXq-Zi1e5inrsYiwAPHWavi233U6lTxZthSnB4_Hf4W3UwYUHgo0gNKHWhTr1cHbjh7sKn78b4V9bJVCvZeRpqDbsNLlxQBuXGZX6rZBaFR3D3VCE9BsoBJR6yt1PAIWAG7bO3eJqWmU4TslYWd68EToIllB1aYI7eAy1zALRUcCXf5IAw27fvT51CADoY05y-6Fr9r6v2uaso9UufwmOrrDRn7ytBXnZ6FOGq7p13QufCO3kSbKF45LKYDRnQ"
 }

@@ -1,4 +1,5 @@
 import { addJobToDatabase } from '@homely-backend/jobs/add-job';
+import { withEmployerProtect } from '@homely-backend/middleware/withEmployerProtect';
 import { IAddJob } from '@homely-interfaces/Firebase/Jobs';
 import { IResponse } from '@homely-interfaces/Response/Response';
 import type { NextApiHandler, NextApiRequest, NextApiResponse } from 'next';
@@ -26,8 +27,9 @@ const countHandler: NextApiHandler = async (
           "maxCapacity":5,
           "applied": 0,
           "location": "New Delhi, India"
+          "token":"<Long Firebase Token>"
       });
     })
 */
 
-export default countHandler;
+export default withEmployerProtect(countHandler);

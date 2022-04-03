@@ -7,10 +7,9 @@ import {
 } from '@homely-backend/responseSynthesizer';
 import { FirebaseError } from 'firebase/app';
 import { IHomeLessUser } from '@homely-interfaces/Firebase/HomelessUser';
-import { IUserToken } from '@homely-interfaces/Firebase/Auth';
 
 export const updateUserInDatabase = async (
-  homelessUser: IHomeLessUser&IUserToken
+  homelessUser: IHomeLessUser
 ): Promise<IResponse> => {
   const { db, storagePaths } = Server;
   if (homelessUser.name !== undefined && homelessUser.name.length < 1) {
