@@ -6,6 +6,7 @@ const MyPosts: NextPage = () => {
   return (
     <>
       <Header />
+      <br />
       <div className="container">
         <h1>My Job Posts</h1>
         <table className="table table-hover">

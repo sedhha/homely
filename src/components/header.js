@@ -9,7 +9,8 @@ export default function Header() {
 
     return <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light no-flow">
-            <div className="container">
+            <br />
+      <div className="container">
                 <a class="navbar-brand" href="#">Hands Up</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

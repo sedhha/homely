@@ -7,6 +7,7 @@ const EditPost: NextPage = () => {
   return (
     <>
       <Header />
+      <br />
       <div className="container">
         <h1>Edit Job Description</h1>
         <form>

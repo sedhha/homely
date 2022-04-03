@@ -9,6 +9,7 @@ const Applications: NextPage = () => {
   return (
     <>
       <Header />
+      <br />
       <div className="container">
         <h1>My Applications</h1>
         <table className="table table-hover">

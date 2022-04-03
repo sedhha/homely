@@ -5,8 +5,12 @@ const Post: NextPage = () => {
   return (
     <>
       <Header />
-      <h1>Check Aplications Details</h1>
-      <p>1 Person Applied</p>
+      <br />
+      <div className="container">
+        <h1>Check Aplications Details</h1>
+        <p>1 Person Applied</p>
+        <li>You applied to this position</li>
+      </div>
     </>
   );
 };
