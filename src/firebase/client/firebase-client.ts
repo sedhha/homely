@@ -4,7 +4,6 @@ import { getAnalytics, isSupported, Analytics } from 'firebase/analytics';
 import { getStorage } from 'firebase/storage';
 import {
   getAuth,
-  createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   UserCredential,
   browserLocalPersistence,
@@ -63,6 +62,7 @@ export const signInUser = async (
   return signInWithEmailAndPassword(auth, email, password)
     .then(async (user) => {
       // Signed in
+
       return user.user.getIdTokenResult().then((result) => {
         return {
           user,

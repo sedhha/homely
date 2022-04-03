@@ -6,11 +6,15 @@ import {
 } from '@homely-interfaces/Firebase/Auth';
 import React, { useEffect, useState } from 'react';
 
+import { useAppSelector } from '@redux-store/hooks';
+
 export default function Login() {
+  const { authToken } = useAppSelector((state) => state.user);
   const [status, setStatus] = useState({ message: '', show: false });
   const [mounted, setMounted] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [time, setTime] = useState('');
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -32,7 +36,6 @@ export default function Login() {
       }
     });
   };
-
   const signInUserHandler = () => {
     setLoading(true);
     Client.signInUser(email, password).then((response) => {
@@ -48,6 +51,7 @@ export default function Login() {
           const metadata = response.metadata as IFirebaseClaims;
           // To Check if User is Job Seeker
           // metadata.userType === firebaseUsers.jobSeeker
+          //TODO: Disaptch to global state
           setStatus({
             message:
               'User signed in successfully' +
@@ -59,6 +63,7 @@ export default function Login() {
       }
     });
   };
+  const signOutUserHandler = () => Client.auth.signOut();
   return loading ? (
     <div>Loading</div>
   ) : (
@@ -78,11 +83,20 @@ export default function Login() {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
+      <input
+        type='date'
+        value={time}
+        onChange={(e) => {
+          setTime(e.target.value);
+          console.log(new Date(e.target.value).getTime());
+        }}
+      />
       <br />
       <button onClick={signInUserHandler}>Login</button>
       <br />
       <button onClick={registerUser}>Sign Up</button>
       <br />
+      <button onClick={signOutUserHandler}>Sign Out</button>
 
       {status.show && <p>{status.message}</p>}
     </div>

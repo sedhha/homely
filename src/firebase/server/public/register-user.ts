@@ -33,7 +33,6 @@ export const registerFirebaseUser = async (
       });
     })
     .catch((error: FirebaseError) => {
-      const code = error.message;
       const message = error.message;
       return errorResponse({ message, payload: { error } });
       // ..
