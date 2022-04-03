@@ -1,4 +1,3 @@
-import { IAddJob } from '@homely-interfaces/Firebase/Jobs';
 import Server from '@fb-server';
 import { IResponse } from '@homely-interfaces/Response/Response';
 import {

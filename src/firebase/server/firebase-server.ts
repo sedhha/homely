@@ -22,6 +22,7 @@ if (admin.apps.length === 0)
 const storagePaths = {
   JOBS: 'jobs',
   USERS: 'users',
+  NON_PROFIT_ENDORSEMENTS: 'users-assoc',
 };
 
 const db = admin.firestore();

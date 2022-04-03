@@ -21,5 +21,7 @@ Job Poster can view and Approve (An API Call to Update the Job Status)
 ```
 
 ```
+How to Add Orgs for a Specific UID?
 
+Manually go to Firebase and add them there.
 ```
