@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Header from "src/components/header";
+import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
 
 const profile: NextPage = () => {
+  const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
   return (
     <>
         <Header />
@@ -32,7 +34,7 @@ const profile: NextPage = () => {
           </div>
 
           <button type="submit" className="btn btn-primary">
-            Submit
+            Update Profile
           </button>
         </form>
       </div>
