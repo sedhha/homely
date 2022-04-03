@@ -14,4 +14,12 @@ module.exports = withPWA({
       /_middleware.js.map$/,
     ],
   },
+  images: {
+    domains: [
+      'assets.vercel.com',
+      'storage.googleapis.com',
+      'source.unsplash.com',
+    ],
+    formats: ['image/avif', 'image/webp'],
+  },
 });
