@@ -17,7 +17,7 @@ const EditJob: NextPage = () => {
   const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
 
   function handleCreateJob(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault;
+    e.preventDefault();
     // e.preventDefault();
     console.log(new Date(deadline).getTime());
     console.log(title);
@@ -30,11 +30,14 @@ const EditJob: NextPage = () => {
         jobTitle: title,
         description,
         deadline: new Date(deadline).getTime(),
-        capacity,
+        maxCapacity: capacity,
+        applied: 0,
         location,
         workHours,
       }),
     };
+
+    console.log(requestOptions)
     fetch("http://localhost:3000/api/add-job", requestOptions).then((res) => {
       res.json().then((data) => console.log(data));
     });
