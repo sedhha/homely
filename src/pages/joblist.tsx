@@ -6,6 +6,7 @@ const IndexPage: NextPage = () => {
     <>
       <div className="container-lg">
         <Header />
+        <br />
         <h1>Job List</h1>
         <table className="table table-hover">
           <thead>
@@ -21,7 +22,7 @@ const IndexPage: NextPage = () => {
               <th>Sample Description</th>
               <th>Tomorrow</th>
               <th>
-                <button className="btn btn-primary">Apply</button>
+                <button className="btn btn-outline-primary">Apply</button>
               </th>
             </tr>
           </tbody>
