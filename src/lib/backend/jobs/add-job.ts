@@ -40,6 +40,15 @@ export const addJobToDatabase = async (
       message: 'Invalid Work Hours, Must be a positive number',
     });
   }
+  console.log({
+    jobTitle: jobDetails.jobTitle,
+    description: jobDetails.description,
+    deadline: jobDetails.deadline,
+    workHours: jobDetails.workHours,
+    maxCapacity: jobDetails.maxCapacity,
+    applied: jobDetails.applied,
+    location: jobDetails.location,
+  });
   try {
     await db.collection(storagePaths.JOBS).add({
       jobTitle: jobDetails.jobTitle,
