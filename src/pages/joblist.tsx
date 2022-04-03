@@ -1,9 +1,9 @@
-import type { NextPage } from "next";
-import { useEffect, useState } from "react";
-import Header from "../components/header";
-import { useAppSelector } from "@redux-store/hooks";
-import { Box, Spinner } from "@chakra-ui/react";
-import { Input, Button, Text } from "@chakra-ui/react";
+import type { NextPage } from 'next';
+import { useEffect, useState } from 'react';
+import Header from '../components/header';
+import { useAppSelector } from '@redux-store/hooks';
+import { Box, Spinner } from '@chakra-ui/react';
+import { Input, Button, Text } from '@chakra-ui/react';
 
 const IndexPage: NextPage = () => {
   const [jobList, setJobList] = useState([]);
@@ -14,23 +14,19 @@ const IndexPage: NextPage = () => {
     setLoading(true);
     if (isLoggedIn) {
       const requestOptions = {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           token: authToken,
         }),
       };
 
-<<<<<<< HEAD
-      fetch("http://localhost:3000/api/get-available-jobs", requestOptions)
-=======
       fetch('/api/get-available-jobs', requestOptions)
->>>>>>> 4107fc447a8d18b253b6a30025eacedbad16d977
         .then((res) => {
           res
             .json()
             .then((data) => {
-              setJobList(data["payload"]);
+              setJobList(data['payload']);
               setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -42,24 +38,23 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <Header />
-      <div className="container-lg">
-        <Text fontSize="6xl">Job List</Text>
+      <div className='container-lg'>
+        <Text fontSize='6xl'>Job List</Text>
         {/* <p>{authToken}</p> */}
         <br />
         {loading ? (
           <div
             style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              marginTop: "2rem",
-            }}
-          >
-            <Spinner size="xl" />
+              width: '100%',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginTop: '2rem',
+            }}>
+            <Spinner size='xl' />
           </div>
         ) : (
-          <table className="table table-hover">
+          <table className='table table-hover'>
             <thead>
               <tr>
                 <th>Job Title</th>
@@ -72,13 +67,13 @@ const IndexPage: NextPage = () => {
               {jobList.length > 0 ? (
                 jobList.map((job, key) => (
                   <tr key={key}>
-                    <th>{job["jobTitle"]}</th>
-                    <th>{job["description"]}</th>
-                    <th>{new Date(job["deadline"]).toDateString()}</th>
-                    <th>{job["location"]}</th>
+                    <th>{job['jobTitle']}</th>
+                    <th>{job['description']}</th>
+                    <th>{new Date(job['deadline']).toDateString()}</th>
+                    <th>{job['location']}</th>
                     <th>
                       {isLoggedIn ? (
-                        <button className="btn btn-outline-primary">
+                        <button className='btn btn-outline-primary'>
                           Apply
                         </button>
                       ) : (
