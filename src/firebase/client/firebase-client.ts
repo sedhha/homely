@@ -66,7 +66,7 @@ export const signInUser = async (
       return user.user.getIdTokenResult().then((result) => {
         return {
           user,
-          code: '',
+          code: result.token,
           message: '',
           metadata: result.claims,
           error: false,
