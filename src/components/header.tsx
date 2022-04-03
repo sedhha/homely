@@ -124,6 +124,10 @@ export default function Dashboard() {
               colorScheme={'teal'}
               size={'sm'}
               mr={4}
+              onClick={() => {
+                Client.auth.signOut();
+                router.push('/login');
+              }}
               rightIcon={<ArrowForwardIcon />}>
               Log Out
             </Button>
