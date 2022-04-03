@@ -25,7 +25,7 @@ const Applications: NextPage = () => {
               <th>{jobfield.jobTitle}</th>
               <th>{jobfield.description}</th>
               <th>{jobfield.deadline}</th>
-              <th>{jobfield.status ? jobfield.status : "PENDIENT"}</th>
+              <th>{"PENDIENT"}</th>
             </tr>
           ))}
         </tbody>
