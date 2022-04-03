@@ -18,9 +18,10 @@
     "paths": {
       "@fb-client": ["src/firebase/client/firebase-client.ts"],
       "@fb-server": ["src/firebase/server/firebase-server.ts"],
-
+      "@redux-store/*": ["src/app/*"],
       "@homely-interfaces/*": ["src/interfaces/*"],
-      "@homely-backend/*": ["src/lib/backend/*"]
+      "@homely-backend/*": ["src/lib/backend/*"],
+      "@homely-components/*": ["src/components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],

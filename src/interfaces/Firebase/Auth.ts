@@ -14,3 +14,5 @@ export interface IRegistrationForm {
 export interface IFirebaseClaims {
   userType: FirebaseUserType;
 }
+
+export type IUserToken = string;
