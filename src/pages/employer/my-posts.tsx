@@ -1,14 +1,17 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
 
-import Header from 'src/components/header';
+import { Text } from "@chakra-ui/react";
+
+import Header from "src/components/header";
 const MyPosts: NextPage = () => {
   return (
     <>
       <Header />
-      <div className='container'>
-        <h1>My Job Posts</h1>
-        <table className='table table-hover'>
+      <br />
+      <div className="container">
+        <Text fontSize="6xl">My Job Posts</Text>
+        <table className="table table-hover">
           <thead>
             <tr>
               <th>Job Title</th>
@@ -22,10 +25,10 @@ const MyPosts: NextPage = () => {
               <th>Sample Description</th>
               <th>Tomorrow</th>
               <th>
-                <Link href={'/'}>Edit</Link>
+                <Link href="edit-post/32">Edit</Link>
               </th>
               <th>
-                <button className='btn btn-primary'>Check Applications</button>
+                <Link href="post/32">Check Applications</Link>
               </th>
             </tr>
           </tbody>

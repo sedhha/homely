@@ -1,15 +1,16 @@
-import type { NextPage } from 'next';
-import Header from 'src/components/header';
-import { useAppSelector, useAppDispatch } from '@redux-store/hooks';
-import { Input, Button } from '@chakra-ui/react';
+import type { NextPage } from "next";
+import Header from "src/components/header";
+import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
+import { Input, Button, Text } from "@chakra-ui/react";
 
 const profile: NextPage = () => {
   const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
   return (
     <>
       <Header />
-      <div className='container-lg'>
-        <h1>Profile</h1>
+      <div className="container-lg">
+        <Text fontSize="6xl">Profile</Text>
+
         <form>
           <div className='form-group'>
             <label>Name</label>
