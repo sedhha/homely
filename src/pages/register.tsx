@@ -176,7 +176,7 @@ const App = () => {
                   colorScheme='teal'
                   onClick={registerUser}
                   width='full'>
-                  Login
+                  Register
                 </Button>
               )}
             </Stack>
