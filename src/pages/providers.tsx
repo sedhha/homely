@@ -18,7 +18,7 @@ import { useRouter } from 'next/router';
 const Links = [
   {
     label: 'Oppurtunities',
-    comparitor: 'oppurtunities',
+    comparitor: 'providers',
   },
   {
     label: 'New',
@@ -34,21 +34,30 @@ const NavLink = ({
   children,
   isActive,
   href,
+  router,
 }: {
   children: ReactNode;
   isActive?: boolean;
   href?: string;
-}) => (
-  <NextLink href={href ?? '/providers'}>
-    <div className={isActive ? 'activeNavLink' : 'inactiveNavLink'}>
+  router: (url: string) => void;
+}) => {
+  return (
+    <div
+      className={isActive ? 'activeNavLink' : 'inactiveNavLink'}
+      onClick={() => router(href ?? '/providers')}>
       {children}
     </div>
-  </NextLink>
-);
+  );
+};
 
 export default function Dashboard() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const router = useRouter();
+
+  const navigateToCallback = (url: string) => {
+    console.log(url);
+    router.push(url);
+  };
 
   return (
     <>
@@ -87,6 +96,8 @@ export default function Dashboard() {
               {Links.map((link) => (
                 <NavLink
                   key={link.comparitor}
+                  router={navigateToCallback}
+                  href={`/${link.comparitor}`}
                   isActive={router.pathname.includes(link.comparitor)}>
                   {link.label}
                 </NavLink>
@@ -111,6 +122,8 @@ export default function Dashboard() {
               {Links.map((link) => (
                 <NavLink
                   key={link.comparitor}
+                  router={navigateToCallback}
+                  href={`/${link.comparitor}`}
                   isActive={router.pathname.includes(link.comparitor)}>
                   {link.label}
                 </NavLink>

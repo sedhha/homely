@@ -18,8 +18,10 @@ a {
 .activeNavLink {
   padding: 0.3rem;
   border-bottom: 2px solid #4c8e8f;
+  cursor: pointer;
 }
 
 .inactiveNavLink {
   padding: 0.3rem;
+  cursor: pointer;
 }
