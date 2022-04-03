@@ -19,6 +19,7 @@
       "@fb-client": ["src/firebase/client/firebase-client.ts"],
       "@fb-server": ["src/firebase/server/firebase-server.ts"],
       "@redux-store/*": ["src/app/*"],
+      "@redux-slices/*": ["src/slices/*"],
       "@homely-interfaces/*": ["src/interfaces/*"],
       "@homely-backend/*": ["src/lib/backend/*"],
       "@homely-components/*": ["src/components/*"]
