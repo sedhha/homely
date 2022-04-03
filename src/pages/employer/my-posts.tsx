@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 
 import Header from "src/components/header";
 const MyPosts: NextPage = () => {
@@ -16,12 +17,12 @@ const MyPosts: NextPage = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
+          <tr>
               <th>Sample Job</th>
               <th>Sample Description</th>
               <th>Tomorrow</th>
               <th>
-                <button className="btn btn-primary">Edit</button>
+                <Link href={} className="btn btn-primary">Edit</Link>
               </th>
               <th>
                 <button className="btn btn-primary">Check Applications</button>

@@ -25,7 +25,8 @@ const Applications: NextPage = () => {
               <tr>
                 <th>{jobfield.jobTitle}</th>
                 <th>{jobfield.description}</th>
-                <th>{jobfield.deadline}</th>
+                <th>{new Date(jobfield.deadline).toLocaleDateString()}</th>
+                
                 <th>{"PENDIENT"}</th>
               </tr>
             ))}
