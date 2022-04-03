@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Header from "src/components/header";
 import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
+import { Input, Button } from '@chakra-ui/react'
 
 const profile: NextPage = () => {
   const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
@@ -12,20 +13,21 @@ const profile: NextPage = () => {
         <form>
           <div className="form-group">
             <label>Name</label>
-            <input type="text" className="form-control" />
+            <Input placeholder="Leave in blank if you don't want to update your name"  type="text" className="form-control" />
           </div>
           <div className="form-group">
             <label>Email address</label>
-            <input
+            <Input
               type="email"
               className="form-control"
-              placeholder="Enter email"
+              placeholder="Leave in blank if you don't want to update your email"
             />
           </div>
 
           <div className="form-group">
             <label>Number</label>
-            <input type="text" className="form-control" />
+            
+            <Input type="tel" className="form-control" placeholder="Leave in blank if you don't want to update your phone number" />
           </div>
 
           <div className="form-group">
@@ -33,9 +35,14 @@ const profile: NextPage = () => {
             <input type="text" className="form-control" />
           </div>
 
-          <button type="submit" className="btn btn-primary">
-            Update Profile
-          </button>
+          <Button
+            borderRadius={0}
+            type="submit"
+            variant="solid"
+            colorScheme="teal"
+            width="full"
+          > Update Profile
+          </Button>
         </form>
       </div>
     </>
