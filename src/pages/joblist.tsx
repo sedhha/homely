@@ -20,7 +20,7 @@ const IndexPage: NextPage = () => {
         }),
       };
 
-      fetch('http://localhost:3000/api/get-available-jobs', requestOptions)
+      fetch('/api/get-available-jobs', requestOptions)
         .then((res) => {
           res
             .json()
@@ -28,9 +28,9 @@ const IndexPage: NextPage = () => {
               setJobList(data['payload']);
               setLoading(false);
             })
-            .catch((error) => setLoading(false));
+            .catch(() => setLoading(false));
         })
-        .catch((error) => setLoading(false));
+        .catch(() => setLoading(false));
     }
   }, [isLoggedIn, authToken]);
 
