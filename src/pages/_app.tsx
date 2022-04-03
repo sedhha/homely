@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import store from "../app/store";
 import Script from "next/script";
 
+
+
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function MyApp({ Component, pageProps }: AppProps) {

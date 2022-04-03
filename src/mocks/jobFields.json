@@ -7,5 +7,14 @@
     "maxCapacity": 15,
     "applied": 10,
     "location": ""
+  },
+  {
+    "jobTitle": "Worker AT",
+    "description": "Worker Attempt Test",
+    "deadline": 1517598400,
+    "workHours": 8,
+    "maxCapacity": 15,
+    "applied": 1,
+    "location": "Brooklyn, NY"
   }
 ]

@@ -1,7 +1,11 @@
 import type { NextPage } from "next";
 import Header from "src/components/header";
 
+import JobFields from "../mocks/jobFields.json";
+
 const Applications: NextPage = () => {
+  console.log(JobFields);
+
   return (
     <>
       <Header />
@@ -16,17 +20,18 @@ const Applications: NextPage = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>Sample Job</th>
-            <th>Sample Description</th>
-            <th>Tomorrow</th>
-            <th>Status</th>
-          </tr>
+          {JobFields.map((jobfield) => (
+            <tr>
+              <th>{jobfield.jobTitle}</th>
+              <th>{jobfield.description}</th>
+              <th>{jobfield.deadline}</th>
+              <th>{jobfield.status ? jobfield.status : "PENDIENT"}</th>
+            </tr>
+          ))}
         </tbody>
       </table>
     </>
   );
 };
-
 
 export default Applications;
