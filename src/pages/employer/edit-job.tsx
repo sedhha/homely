@@ -1,12 +1,14 @@
 import type { NextPage } from "next";
-import {Text} from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 
 import Header from "src/components/header";
 const EditJob: NextPage = () => {
   return (
     <>
       <Header />
-      <h1>Edit Job Description</h1>
+      
+      <Text fontSize="6xl">Edit Job Description</Text>
+      {/* <h1>Edit Job Description</h1> */}
       <form>
         <div className="form-group">
           <label>Job Title</label>
