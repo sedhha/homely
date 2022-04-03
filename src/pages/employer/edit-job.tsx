@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import {Text} from "@chakra-ui/react";
 
 import Header from "src/components/header";
 const EditJob: NextPage = () => {
