@@ -13,6 +13,7 @@ const countHandler: NextApiHandler = async (request, response) => {
       .json(errorResponse({ message: 'Unauthorized' }));
 
   const { uid } = request.body as { uid: string };
+
   return Server.auth
     .setCustomUserClaims(uid, { userType: 'Admin' })
     .then(() =>
