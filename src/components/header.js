@@ -1,8 +1,12 @@
 import { NextPage } from "next";
 import Link from 'next/link';
 import NavLink from "./NavLink";
+import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
+
 
 export default function Header() {
+    const { authToken, isLoggedIn } = useAppSelector((state) => state.user);
+
     return <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light no-flow">
             <div className="container">
@@ -32,11 +36,19 @@ export default function Header() {
                         <li className="nav-item">
                             <NavLink href="/applications" className="nav-link ">Applications</NavLink>
                         </li>
+                        {isLoggedIn &&
+                            <li className="nav-item">
+                                <NavLink className="nav-link " href={"#"} >Logout</NavLink>
+                            </li>
 
-                        <li className="nav-item">
-                            <NavLink className="nav-link " href={"#"} >Logout</NavLink>
-                        </li>
+                        }
 
+                        {!isLoggedIn &&
+                            <li className="nav-item">
+                                <NavLink className="nav-link " href="/login" >Login</NavLink>
+                            </li>
+
+                        }
                     </ul>
                 </div>
             </div>

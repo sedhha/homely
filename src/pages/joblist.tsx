@@ -30,7 +30,7 @@ const IndexPage: NextPage = () => {
     <>
       <Header />
       <div className="container-lg">
-        <p>{authToken}</p>
+        {/* <p>{authToken}</p> */}
         <br />
         <table className="table table-hover">
           <thead>
