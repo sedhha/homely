@@ -12,22 +12,22 @@ export const updateUserInDatabase = async (
   homelessUser: IHomeLessUser
 ): Promise<IResponse> => {
   const { db, storagePaths } = Server;
-  if (homelessUser.name !== undefined && homelessUser.name.length < 1) {
-    return errorResponse({
-      message: 'Invalid Name',
-    });
-  }
-  else if(homelessUser.)
   try {
-    await db.collection(storagePaths.JOBS).add({
-      jobTitle: jobDetails.jobTitle,
-      description: jobDetails.description,
-      deadline: jobDetails.deadline,
-      workHours: jobDetails.workHours,
-      maxCapacity: jobDetails.maxCapacity,
-      applied: jobDetails.applied,
-      location: jobDetails.location,
-    });
+    await db
+      .collection(storagePaths.USERS)
+      .doc(homelessUser.uid)
+      .set(
+        {
+          name: homelessUser.name ?? 'Unknown',
+          phoneNumber: {
+            countryCode: homelessUser.phoneNumber.countryCode ?? '+1',
+            number: homelessUser.phoneNumber.number ?? 'Unknown Number',
+          },
+          email: homelessUser.email,
+          uid: homelessUser.uid,
+        } as IHomeLessUser,
+        { merge: true }
+      );
     return genericResponse({ message: 'Added To Database Successfully' });
   } catch (er) {
     const error = er as FirebaseError;

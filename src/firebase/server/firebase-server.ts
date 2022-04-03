@@ -21,6 +21,7 @@ if (admin.apps.length === 0)
 
 const storagePaths = {
   JOBS: 'jobs',
+  USERS: 'users',
 };
 
 const db = admin.firestore();
