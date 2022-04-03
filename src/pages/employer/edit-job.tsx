@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
 
+import Header from "src/components/header";
 const EditJob: NextPage = () => {
   return (
     <>
+      <Header />
       <h1>Edit Job Description</h1>
       <form>
         <div className="form-group">

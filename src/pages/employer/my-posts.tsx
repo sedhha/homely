@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
 
+import Header from "src/components/header";
 const MyPosts: NextPage = () => {
   return (
     <>
+      <Header />
       <h1>My Job Posts</h1>
       <table className="table table-hover">
         <thead>
