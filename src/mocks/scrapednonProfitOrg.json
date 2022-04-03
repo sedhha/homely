@@ -1,0 +1,811 @@
+[
+  {
+    name: 'Aesthetic Soul Community, Inc.',
+    id: 0,
+    website: 'http://www.aestheticsoulcommunity.org',
+    description: "A small non profit who's focus is social justice through community organizing and engagement.",
+    location: '80 Dwight Street, #7F',
+    postcode: '11231'
+  },
+  {
+    name: 'All Stars Project',
+    id: 1,
+    website: 'Http://www.healinginthecity.com',
+    description: 'The All Stars Project, Inc. is a national nonprofit organization founded in 1981. As a new way of engaging poverty, our mission is to transform the lives of youth and poor communities, using the developmental power of performance, in partnership with caring adults.',
+    location: '543 W. 42nd St.',
+    postcode: '10036'
+  },
+  {
+    name: 'Alliance for Flushing Meadows Corona Park',
+    id: 2,
+    website: 'http://www.tnvac.us',
+    description: 'The Alliance for Flushing Meadows Corona Park is a public-private partnership that supports enhanced services, programming, and improvements in the park.',
+    location: '1172 Roosevelt Ave',
+    postcode: '11368'
+  },
+  {
+    name: 'alpha transit llc',
+    id: 3,
+    website: 'http://ccsusa.org',
+    description: 'NYC yellow medallion taxi',
+    location: 'po box 771096',
+    postcode: '11377'
+  },
+  {
+    name: 'American Buddhist Study Center, Inc.',
+    id: 4,
+    website: 'http://ambuddhist.org',
+    description: 'The American Buddhist Study Center was originally established in 1951. Our mission is to introduce Buddhist Values and Japanese culture to America',
+    location: '331 Riverside Drive',
+    postcode: '10025'
+  },
+  {
+    name: 'American Greetings Corporation',
+    id: 5,
+    website: 'http://www.nacausa.org',
+    description: 'American Greetings',
+    location: 'One American Boulevard',
+    postcode: '44145'
+  },
+  {
+    name: 'American Heart Association NYC',
+    id: 6,
+    website: 'http://www2.heart.org/site/TR?fr_id=3955&pg=entry',
+    description: 'The AHA has grown into the nation’s oldest and largest voluntary organization dedicated to fighting heart disease and stroke. A shared focus on cardiovascular health unites our more than 33 million volunteers and supporters as well as our more than 3,400 employees.',
+    location: '10 East 40th St',
+    postcode: '10016'
+  },
+  {
+    name: 'ArchCare TimeBank',
+    id: 7,
+    website: 'http://scopeusa.org',
+    description: 'The ArchCare TimeBank is a free community program open to everyone. Members "bank" their time helping each other, providing and receiving services, assisting neighborhood organizations and participating in member-led group activities. The TimeBank has over 2,000 individual members in NYC!',
+    location: '1249 5th Ave.',
+    postcode: '10029'
+  },
+  {
+    name: 'Ariva',
+    id: 8,
+    website: 'http://www.ariva.org',
+    description: 'Ariva, founded in 2003, hopes to give the financial services and access needs of low-income individuals in the South Bronx. We have since expanded to other boroughs, providing free on-site financial counseling and tax preparation services to under served populations in NYC',
+    location: '69 East 167th Street',
+    postcode: '10452'
+  },
+  {
+    name: 'Asian American Coalition for Children and Families',
+    id: 9,
+    website: 'https://www.theuniproject.org',
+    description: "CACF is the nation's only pan-Asian children and families' advocacy organization that advocates for equity and opportunity for marginalized Asian Pacific American children and families.",
+    location: '50 Broad Street',
+    postcode: '10004'
+  },
+  {
+    name: 'Astoria Delivery Service Inc',
+    id: 10,
+    website: 'http://www.youvisit.com/collegesearch',
+    description: 'Delivery Service',
+    location: '157-18 SANFORD AVE',
+    postcode: '11355'
+  },
+  {
+    name: 'Astoria Values',
+    id: 11,
+    website: 'https://www.nationalmssociety.org/Chapters/NYN',
+    description: 'We celebrate the value of Arts and Education and work to champion diversity and equal access. We run several programs designed to serve the community. We do Tutoring well as Arts & Crafts. We also run seminars and information sessions on issues that affect the community.',
+    location: '23-01 24th Avenue',
+    postcode: '11102'
+  },
+  {
+    name: 'Backpacks For The Street',
+    id: 12,
+    website: 'https://www.stompoutbullying.org',
+    description: 'Backpacks For The Street is a nonprofit and grassroots movement to bring kindess, compassion and hope to the homeless. Throughout the year, we give out backpacks filled with food, life necessities and more to people living on the street. \n' +
+      '\n' +
+      'In Nov, we will give out 300+ packs throughout the city.',
+    location: 'contact for this',
+    postcode: '10011'
+  },
+  {
+    name: 'BCVU Holdings Inc',
+    id: 13,
+    website: 'http://ihraf.org',
+    description: 'Entertainment production company',
+    location: '3603 Hayden Avenue',
+    postcode: '90232'
+  },
+  {
+    name: 'Bike New York Inc.',
+    id: 14,
+    website: 'https://justleadershipusa.org',
+    description: 'Bike New York presents the Five Boro Bike Tour and Expo - first weekend of May. We are also in need hundreds of volunteers to support the tens of thousands of participants. There are many perks to volunteering with Bike NY, including: accruing community service hours and work experience.',
+    location: '475 Riverside Drive',
+    postcode: '100025'
+  },
+  {
+    name: 'Brain Tumor Association',
+    id: 15,
+    website: 'http://hope.abta.org',
+    description: 'The ABTA provides resources to families affected by brain tumor and funds brain tumor research efforts.',
+    location: '2121 S. Wolf Rd 115',
+    postcode: '60644'
+  },
+  {
+    name: 'Broad Views on Broadway',
+    id: 16,
+    website: 'https://allstars.org/',
+    description: 'Broad Views on Broadway (BVOB) supports emerging artists. Our goal as a company has been to develop, support and produce new works in New York City. Broad Views on Broadway is an LGBTQIA and POC Music and Theatre company that strives to provide an enriching, nurturing environment for artists.',
+    location: '500 west 52nd St.',
+    postcode: '10019'
+  },
+  {
+    name: 'Brooklyn Community Housing and Services',
+    id: 17,
+    website: 'http://www.projecthopecharities.org',
+    description: 'BCHS prevents homelessness for more than 1,000 formerly homeless and at-risk children, women and men each year. What makes BCHS unique in the field is our commitment to creating a sense of community for all of the formerly homeless residents who come to us.',
+    location: '105 Carlton Avenue',
+    postcode: '11205'
+  },
+  {
+    name: 'Families First, Inc.',
+    id: 18,
+    website: 'https://www.familiesfirstbrooklyn.org/',
+    description: 'Non-Profit Early Childhood center in Cobble Hill, Brooklyn, with drop-in music, story time, and art classes; a play space, snack room and lending library; and Practically Preschool classes. We also offer parenting workshops and events that are open to the entire community.',
+    location: 'FAMILIES FIRST INC',
+    postcode: '11201'
+  },
+  {
+    name: 'FANTSS EYES, INC',
+    id: 19,
+    website: 'http://match4action.org/',
+    description: 'IMPORTER AND WHOLESELLER',
+    location: '385 5TH AVENUE , 9/F',
+    postcode: '10016'
+  },
+  {
+    name: 'Carnegie Hill Neighbors',
+    id: 20,
+    website: 'http://carnegiehillneighbors.org',
+    description: 'Carnegie Hill Neighbors is a nonprofit, volunteer-centered, community organization that conserves, protects, and advocates on behalf of Carnegie Hill neighborhood and its residents. It utilizes numerous quality of life programs and hosts community events.',
+    location: '1326 Madison Avenue',
+    postcode: '10128'
+  },
+  {
+    name: 'Catholic Charities Brooklyn and Queens',
+    id: 21,
+    website: 'https://www.ccbq.org/',
+    description: 'Catholic Charities Brooklyn and Queens provides quality social services to the neighborhoods of Brooklyn and Queens, and currently offers over 160 programs and services for children, youth, adults, seniors, those with developmental disabilities, and those struggling with mental illnesses.',
+    location: '191 Joralemon Street',
+    postcode: '11201'
+  },
+  {
+    name: 'CERANY INC',
+    id: 22,
+    website: 'http://www.hugonewmanprep.org',
+    description: 'Accompany New-York state’s government and city hall in theirs processes of inserting newcomers, civic, social, and cultural education programs, promoting, finding jobs and volunteering, then facilitating for housing to homeless and people’s need.',
+    location: '46 WESTCHESTER SQ, 2nd floor',
+    postcode: '10461'
+  },
+  {
+    name: 'Childrens Community Services',
+    id: 23,
+    website: 'https://www.worldanimalprotection.us',
+    description: 'Childrens Community Services, Inc. helps displaced families overcome homelessness in New York City, and provides short-term emergency shelter and services for these families and their children.',
+    location: '91-12 175th Street',
+    postcode: '11413'
+  },
+  {
+    name: 'City Parks Foundation Education',
+    id: 24,
+    website: 'https://shine-foundation.org/',
+    description: 'At City Parks Foundation, we are dedicated to invigorating and transforming parks into dynamic, vibrant centers of urban life through sports, arts, community building and education programs for all New Yorkers.',
+    location: '222 Thompson St',
+    postcode: '10065'
+  },
+  {
+    name: 'Clover Acquisition Holdings Inc.',
+    id: 25,
+    website: 'http://www.placeforcats.org/',
+    description: 'Holding company',
+    location: '2100 Smithtown Avenue',
+    postcode: '11779'
+  },
+  {
+    name: 'CMMB - Healthier Lives Worldwide',
+    id: 26,
+    website: 'https://uncommonschools.org',
+    description: 'CMMB is an international NGO providing long-term, co-operative medical and development aid to communities affected by poverty and unequal access to healthcare. It strengthens and support communities through healthcare programs and initiatives through the placement of volunteers.',
+    location: '100 Wall St',
+    postcode: '10005'
+  },
+  {
+    name: 'Coalition for Hispanic Family Services',
+    id: 27,
+    website: 'http://allianceforfmcp.org',
+    description: 'Coalition for Hispanic Family Services (CHFS) is a not-for-profit community-based comprehensive family service agency located in New York City. We serve the North Brooklyn communities of Bushwick, Williamsburg and East New York and the Queens communities of Ridgewood, Elmhurst and Corona.',
+    location: '315 Wyckoff Ave',
+    postcode: '11237'
+  },
+  {
+    name: 'H.O.P.E. at the Crib',
+    id: 28,
+    website: 'https://www.facebook.com/hopeatthecrib/',
+    description: 'The purpose of H.O.P.E. at The Crib, Inc. is to address the immediate and future needs of pregnant and/or parenting teens/early parents.',
+    location: '505 EAST 178 STREET',
+    postcode: '10457'
+  },
+  {
+    name: 'Less AIDS Lesotho',
+    id: 29,
+    website: 'http://www.nydesigns.org',
+    description: 'We support people affected by HIV in Lesotho and support Africans  in NYC to access resources.',
+    location: '83 second Avenue, Suite 3A',
+    postcode: '10003'
+  },
+  {
+    name: 'Colon Cancer Foundation',
+    id: 30,
+    website: 'https://www.coloncancerfoundation.org/',
+    description: 'The Colon Cancer Foundation is a 501(c)(3) non-profit organization registered in New York State and listed by the Federal IRS as a public charity dedicated to reducing colorectal cancer incidence and death.',
+    location: '10 Midland Ave',
+    postcode: '10573'
+  },
+  {
+    name: 'Community Concerns Network, Inc. (CCN)',
+    id: 31,
+    website: 'http://www.ariva.org',
+    description: 'Community Concerns Network (CCN) is a 501 (c) 3 non-profit community-based organization whose mission is to enhance the lives of members of the community through immigration reform, youth training programs and networking events.',
+    location: '323 East 53rd Street',
+    postcode: '11203'
+  },
+  {
+    name: 'Community School for Social Justice',
+    id: 32,
+    website: 'https://www.coloncancerfoundation.org/',
+    description: 'Public High School Grades 9-12, located in the South Bronx.',
+    location: '350 Gerard Ave',
+    postcode: '10451'
+  },
+  {
+    name: 'Community-Word Project',
+    id: 33,
+    website: 'http://www.broadviewsombroadway.com',
+    description: 'Community-Word Project is a New York City based 501(c)(3) arts-in-education organization that inspires children in underserved communities to read, interpret and respond to their world and to become active citizens through collaborative arts residencies and teacher training programs.',
+    location: '11 Broadway, Suite 508',
+    postcode: '10004'
+  },
+  {
+    name: 'Counseling in Schools',
+    id: 34,
+    website: 'http://www.counselinginschools.org/',
+    description: 'Counseling In Schools promotes the emotional and social growth of children so that they can thrive in school and succeed in life.',
+    location: '505 8th avenue',
+    postcode: '10018'
+  },
+  {
+    name: 'cs fuel corp',
+    id: 35,
+    website: 'https://marchforsciencenyc.com/',
+    description: 'we sell heating oil.',
+    location: '9528 124st',
+    postcode: '11419'
+  },
+  {
+    name: 'CUNYCitizenshipNow!',
+    id: 36,
+    website: 'http://www1.cuny.edu/sites/citizenship-now/',
+    description: 'CUNY Citizenship Now! is the largest university legal assistance program in the nation providing free and confidential citizenship and immigration law services since 1997.',
+    location: '101 West 31st Street',
+    postcode: '10001'
+  },
+  {
+    name: 'MARS Ministry',
+    id: 37,
+    website: 'http://syopnow.com',
+    description: 'A congregation that serves the community. Broken families come in with children and youth and by the power of God transform.',
+    location: '141 Hendrix Street',
+    postcode: '11207'
+  },
+  {
+    name: 'Dare to Run',
+    id: 38,
+    website: 'http://cmmb.org',
+    description: 'Dare to Run is a 501(c)(3) nonprofit organization whose aim and mission is to train women to run for public office at all levels of government.',
+    location: '2520 Batchelder Street',
+    postcode: '11235'
+  },
+  {
+    name: 'DBP',
+    id: 39,
+    website: 'https://reclaimpridenyc.org',
+    description: 'The Downtown Brooklyn Partnership is a not-for-profit local development corporation that serves as the primary champion for Downtown Brooklyn as a world-class business, cultural, educational, residential, and retail destination.',
+    location: '1 MetroTech Center North',
+    postcode: '11201'
+  },
+  {
+    name: 'DJ Got Me Fit',
+    id: 40,
+    website: 'http://nyc.gov/nightlife',
+    description: 'https://djgotmefit.com',
+    location: '585 North Gannon',
+    postcode: '10314'
+  },
+  {
+    name: 'Dolls and Macs Inc',
+    id: 41,
+    website: 'http://www.dollsandmacs.org',
+    description: 'Dolls & Macs Inc is a nonprofit youth organization empowering boys and girls ages 10-17 years old. We are located and operate in Brooklyn, NY.',
+    location: '5402 Avenue M',
+    postcode: '11234'
+  },
+  {
+    name: 'Doula Program to Accompany and Comfort',
+    id: 42,
+    website: 'http://www.doulaprogram.org/',
+    description: "Join the men and women (our Doula Volunteers) who visit individuals facing the end stage of life alone without friends or family. The Doula Program to Accompany and Comfort's mission is to minimize the isolation and loneliness experienced by individuals with advanced illness.",
+    location: '55 Exchange Place',
+    postcode: '10005'
+  },
+  {
+    name: 'ECPAT-USA',
+    id: 43,
+    website: 'http://www.trinityhumanservices@org',
+    description: 'ECPAT-USA is the leading anti-trafficking policy organization in the United States. As a member of ECPAT International, ECPAT-USA belongs to a network of organizations in more than 90 countries all working together to end the commercial sexual exploitation of children.',
+    location: '30 Third Avenue',
+    postcode: '11217'
+  },
+  {
+    name: 'Ecuadorian Civic Committee',
+    id: 44,
+    website: 'http://www.eccofny.com/',
+    description: 'The Ecuadorian Civic Committee is the only Ecuadorian non-profit organization in New York to have a civic center open to the entire community.',
+    location: '9513 Roosevelt Avenue, 2nd Floor',
+    postcode: '11372'
+  },
+  {
+    name: 'EGL Inc',
+    id: 45,
+    website: 'http://www.sallieandwilliamstephens.com/',
+    description: 'Freight Forwarding, Transportation & Logistics',
+    location: '15350 Vickery Drive',
+    postcode: '77032'
+  },
+  {
+    name: 'ella allure inc',
+    id: 46,
+    website: 'https://standnow.org/about/',
+    description: 'UPHOLSTERY - DESIGN - DECORATING',
+    location: '20 EAST BROAD STREET',
+    postcode: '07090'
+  },
+  {
+    name: 'Flex Dance Program Inc',
+    id: 47,
+    website: 'http://www.flexprogram.com',
+    description: 'The Flex Dance Program Inc (FDP) is an arts education initiative that fosters positive growth among young people in difficult circumstances through creative mentorship and Flex dance.',
+    location: '154 Grand street',
+    postcode: '11249'
+  },
+  {
+    name: 'Free Birds Organization',
+    id: 48,
+    website: 'http://www.bettereducationfoundation.org/',
+    description: 'A start up non-profit organization that allows us to tackle change around our neighborhoods.',
+    location: 'Clay Avenue and E 170th St',
+    postcode: '10457'
+  },
+  {
+    name: 'Girl Scouts of Greater New York (GSGNY)',
+    id: 49,
+    website: 'http://gaycenter.org',
+    description: 'The Girl Scouts of Greater New York leadership experience encourages girls to discover their special skills and talents, connect with other girls, problem solve, and develop healthy relationships. Join us as we build girls of courage, confidence, and character, who make the world a better place!',
+    location: '40 Wall Street, Suite 708',
+    postcode: '10005'
+  },
+  {
+    name: 'GlamourGals Foundation, Inc.',
+    id: 50,
+    website: 'http://www.glamourgals.org',
+    description: 'The GlamourGals program fosters these intergenerational activities on a national scale through the development of local teen lead volunteer chapters.',
+    location: 'PO Box 20488',
+    postcode: '10075'
+  },
+  {
+    name: 'Globescope Arts & Entertainment',
+    id: 51,
+    website: 'http://pamar.org/',
+    description: 'Globescope Arts & Entertainment exists to provide more opportunities for artists or entertainers with disabilities, senior citizens, under-represented cultures and our supporters.',
+    location: '80 Broad Street, Suite 617',
+    postcode: '10004'
+  },
+  {
+    name: 'golden bridge group, inc.',
+    id: 52,
+    website: 'http://www.hungerfreeamerica.org',
+    description: 'wholesaler of luggage and accessories',
+    location: '7416 grand ave',
+    postcode: '11373'
+  },
+  {
+    name: 'Graffiti Ministries Learning Center',
+    id: 53,
+    website: 'http://www.hopeci.org/',
+    description: 'Fighting poverty through education.',
+    location: 'PO Box 240422',
+    postcode: '11224'
+  },
+  {
+    name: 'Gramercy Pediatrics LLC',
+    id: 54,
+    website: 'https://www.raze.tv/',
+    description: 'Pediatric medicine',
+    location: '67 Irving Place',
+    postcode: '10003'
+  },
+  {
+    name: 'GripTape',
+    id: 55,
+    website: 'Http://stannssouthbronx.org',
+    description: 'Young people feel like they are in the back seat of their education and learning. And with a single conversation, dreams were already forming as we imagined a world where all youth are seizing and driving their learning, and have the passion, support, and resources to do it.',
+    location: '100 West 33 Street',
+    postcode: '10001'
+  },
+  {
+    name: 'Healing The City Inc.',
+    id: 56,
+    website: 'http://uhab.coop',
+    description: "Healing The City Inc. establishes Wellness and Mental Health Awareness programs to schools, corporation and individuals. I also do a lot of free volunteer work within the community related around certain causes. i am looking for volunteers for an International Women's Day event.",
+    location: '316 HIMROD STREET',
+    postcode: '11237'
+  },
+  {
+    name: 'Heritage of Pride, Inc. (dba NYC Pride)',
+    id: 57,
+    website: 'http://www.nycpride.org',
+    description: "Heritage of Pride, Inc. is a nonprofit organization that plans and produces New York City's official LGBTQIA+ Pride events each year to commemorate the Stonewall Riots in 1969 – the beginning of the modern Gay Rights movement.",
+    location: '154 Christopher St',
+    postcode: '10014'
+  },
+  {
+    name: 'High Water Women',
+    id: 58,
+    website: 'http://brooklynjuniorleague.org/',
+    description: 'Social Change powered by professional women.',
+    location: '33 West 60th Street',
+    postcode: '10023'
+  },
+  {
+    name: 'Hope Community Inc',
+    id: 59,
+    website: 'https://www.louieslegacy.org/',
+    description: 'Hope Community, Inc. is a community-based not-for-profit affordable housing organization. Founded in 1968, the organization also enriches the lives of the people who live and work in East Harlem and surrounding neighborhoods through cultural arts, economic development, and social service alliances.',
+    location: '174 East 104th Street',
+    postcode: '10029'
+  },
+  {
+    name: 'House Prayer Mount Sinai',
+    id: 60,
+    website: 'http://carnegiehillneighbors.org',
+    description: 'House prayer Mount Sinai is a religious Christian organization. We are a 501(c)(3) that provides social services and spiritual service to the community in the environment of charity and faith to help those in need.',
+    location: '542 Marcy ave',
+    postcode: '11206'
+  },
+  {
+    name: 'Hunger Free America',
+    id: 61,
+    website: 'https://www.archcare.org/community-resources/timebank',
+    description: 'Hunger Free America is a direct service and advocacy organization working on anti-hunger initiatives.',
+    location: '50 Broad Street, Ste 1103',
+    postcode: '10004'
+  },
+  {
+    name: 'Ice Hockey in Harlem',
+    id: 62,
+    website: 'http://www.icehockeyinharlem.org',
+    description: 'Our program allows children in the Harlem community to take advantage of the educational and academic opportunities provided by youth sports. Through participation in ice hockey, IHIH students learn the fundamentals of the game, engage in an active lifestyle, and broaden their life experiences.',
+    location: '127 West 127th Street, Suite 415',
+    postcode: '10027'
+  },
+  {
+    name: 'International Human Rights Art Festival',
+    id: 63,
+    website: 'https://www.uccoi.org',
+    description: 'The International Human Rights Art Festival offers an ongoing series of art-advocacy events, festivals, workshops and community programs at the intersection of art, spirit and society.  We open up space to hear different points of view to listen to unique stories and perspectives.',
+    location: '195 East 3rd Street',
+    postcode: '10009'
+  },
+  {
+    name: 'International Student Exchange',
+    id: 64,
+    website: 'https://iseusa.org/',
+    description: 'At ISE, we believe that international exchange programs provide a distinct opportunity for personal growth and development, and strive to bring this experience to as many exchange students and host families as possible. Help bring the world closer together by getting involved today!',
+    location: '36 Park Avenue',
+    postcode: '11706'
+  },
+  {
+    name: 'Invisible Child',
+    id: 65,
+    website: 'http://www.invisiblechildny.org',
+    description: "Invisible Child is an organization dedicated to aid and benefit children of incarcerated parents. We deliver our promise by providing transportation for children to visit their incarcerated parents, mental health assistance for the children, and caregiver aid to better the children's life.",
+    location: '1950 Andrews Avenue',
+    postcode: '10453'
+  },
+  {
+    name: 'It Takes A Village Daycare',
+    id: 66,
+    website: 'http://www.ariva.org',
+    description: 'IT Takes A  Village is a daycare located in Morningside Heights serving a diverse community.',
+    location: '487 Manhattan avenue',
+    postcode: '10027'
+  },
+  {
+    name: 'Jackson Heights Beautification Group -- JHBG',
+    id: 67,
+    website: 'http://lemontreefoods.org',
+    description: 'The Jackson Heights Beautification Group is the oldest community-based organization in the neighborhood building community in this diverse neighborhood and making Jackson Heights a great place to live and work.',
+    location: 'PO Box 720253',
+    postcode: '11372'
+  },
+  {
+    name: 'Junior League of Brooklyn',
+    id: 68,
+    website: 'http://bywaysandhedges.org',
+    description: 'The Junior League of Brooklyn (JLB) is an organization of women committed to promoting voluntarism, developing the potential of women, and improving communities through the effective action and leadership of trained volunteers. Its purpose is exclusively educational and charitable.',
+    location: '55 Pierrepont St # 2',
+    postcode: '11201'
+  },
+  {
+    name: 'JustLeadershipUSA',
+    id: 69,
+    website: 'https://djgotmefit.com',
+    description: 'JustLeadershipUSA (JLUSA) is dedicated to cutting the US correctional population in half by 2030. On the guiding principle that those closest to the problem are closest to the solution, JLUSA empowers people most affected by incarceration to drive policy reform. JLUSA was launched in November 2014.',
+    location: '1900 Lexington Avenue',
+    postcode: '10035'
+  },
+  {
+    name: "KORYEO INT'L CORP",
+    id: 70,
+    website: 'https://www.npower.org/',
+    description: 'food importer',
+    location: '55 amity street',
+    postcode: '07304'
+  },
+  {
+    name: 'La Peninsula Community Organization',
+    id: 71,
+    website: 'http://www.flexprogram.com',
+    description: 'A community-based, multisite head start organization.',
+    location: '711 MANIDA ST',
+    postcode: '10474'
+  },
+  {
+    name: 'Lemontree Foods',
+    id: 72,
+    website: 'https://we.nyc/',
+    description: 'Lemontree delivers over 100 meals a week to low-income families throughout New York.',
+    location: '34 35th St',
+    postcode: '11232'
+  },
+  {
+    name: 'Little Essentials',
+    id: 73,
+    website: 'Http://Www.marsministry.com',
+    description: 'Little Essentials offers at-risk families living in poverty urgently needed children’s supplies and parenting education to promote the health, well-being and safety of their children under five years of age.',
+    location: '15 Warren Street',
+    postcode: '10007'
+  },
+  {
+    name: "Louie's Legacy Animal Rescue",
+    id: 74,
+    website: 'https://www.uwezakenya.org/',
+    description: 'VISION\n' +
+      'To help rescue more animals, more quickly, by working in a positive, professional and collaborative way with our community.',
+    location: '1324 Forest Avenue',
+    postcode: '10302'
+  },
+  {
+    name: 'Lupus Research Alliance',
+    id: 75,
+    website: 'https://www.lupusresearch.org/',
+    description: 'The Lupus Research Alliance is the world’s leading private funder of lupus research.',
+    location: '275 Madison Avenue 10th Floor',
+    postcode: '10016'
+  },
+  {
+    name: 'Lux Nova, Inc',
+    id: 76,
+    website: 'http://bywaysandhedges.org',
+    description: 'Lux Nova, Inc. is a nonprofit public charity that develops and operates Human Services support programs in the areas of:\n' +
+      "Children's Services, Education Scholarships, Emergency Family Assistance, and Performing Arts & Education",
+    location: 'P. O. Box 100963',
+    postcode: '11210'
+  },
+  {
+    name: 'Making the Impossible Possible, Inc.',
+    id: 77,
+    website: 'http://www.bchands.org/',
+    description: 'Making the Impossible Possible, Inc. (MIPO, Inc.) is a 501c3 organization dedicated to promoting the quality of life of immigrant youth and their families.',
+    location: 'P.O. Box 360171',
+    postcode: '11236'
+  },
+  {
+    name: 'Managing Editor Inc',
+    id: 78,
+    website: 'http://www.TIMH.org',
+    description: 'computer software',
+    location: '610 Old York Road',
+    postcode: '19046'
+  },
+  {
+    name: 'Mandala Café',
+    id: 79,
+    website: 'http://www.lapen.com',
+    description: 'Free Culinary Training (job development) for those with barriers to employment.\n' +
+      '\n' +
+      'Catering business to provide on-the-job training plus part-time employment to those same individuals.\n' +
+      '\n' +
+      'A weekly free Community meal in Central Harlem each Wednesday.',
+    location: '88 St. Nicholas Avenue',
+    postcode: '10024'
+  },
+  {
+    name: 'March for Science NYC',
+    id: 80,
+    website: 'https://www.ms54.org/',
+    description: 'Championing science for the common good.',
+    location: '740 Broadway',
+    postcode: '10013'
+  },
+  {
+    name: 'Match4Action – CrowdDoing',
+    id: 81,
+    website: 'http://match4action.org/',
+    description: 'The M4A Foundation is charged with creating maximum social impact globally towards the resolution of the 17 Sustainable Development Goals as defined by the United Nations.',
+    location: '3325 Besana Dr',
+    postcode: '95762'
+  },
+  {
+    name: "Mayor's Office of Data Analytics (MODA)",
+    id: 82,
+    website: 'http://www1.nyc.gov/site/analytics/about/about-office-data-analytics.page',
+    description: "MODA is New York City's civic intelligence center, allowing the City to aggregate and analyze data from City agencies to effectively address crime, public safety, and quality of life issues. We use analytics tools to deliver services efficiently, enforce laws effectively, and increase transparency.",
+    location: '253 Broadway',
+    postcode: '10007'
+  },
+  {
+    name: "Mo' Motion Inc",
+    id: 83,
+    website: 'http://www.jhbg.org/',
+    description: 'At Mo’ Motion we teach beginner basketball players (Grades K-5) through advanced players (Grades 7-12) the importance of heart, effort, respect, and self-discipline, while actively promoting academic achievement, nutrition, wellness, injury prevention and leadership.',
+    location: '15590 615th Avenue',
+    postcode: '10026'
+  },
+  {
+    name: 'Muslim sisters of Staten Island',
+    id: 84,
+    website: 'http://muslimsistersofsi.com',
+    description: 'Providing activities, resources, advocacy, and support, to promote, awareness, civic engagement, and equity, for the underserved women and children of the community while helping to strengthen the foundation of the family.',
+    location: '80 Arnold Street',
+    postcode: '10301'
+  },
+  {
+    name: 'My Aunties House, Inc.',
+    id: 85,
+    website: 'http://www.doulaprogram.org/',
+    description: 'These are the services that My Aunties House, Inc. provides to the community: Soup kitchen 4x a week; Pantry 2x a month; Summer breakfast & lunch; Summer Camp; Afterschool programs; Referrals; Teach FA/CPR/FA/AED; Provide coats & clothes; MAH help children, Adults, and Seniors',
+    location: '1863 Park place',
+    postcode: '11233'
+  },
+  {
+    name: 'NACA (USA) INC',
+    id: 86,
+    website: 'https://queensbotanical.org/',
+    description: 'The Nigerian-American Community Assoc. (USA), Inc., also known as NACA (USA), INC, is a community-based, not-for-profit, non-religious, non-ethnic, and non-partisan association originally founded to address the needs of the New York City’s expanding Nigerian and African immigrant community.\n',
+    location: 'GPO Box 140658',
+    postcode: '10314'
+  },
+  {
+    name: 'National Ghana Parade Council',
+    id: 87,
+    website: 'http://www.www.ghanaparadecouncil.org',
+    description: 'Our mission is to promote and celebrate the diversity and richness of Ghanaian culture and to empower Ghanaians and Ghanaian Americans to make positive contributions within their community and beyond through community engagement, education, and festive celebration.',
+    location: 'PO Box 630165',
+    postcode: '10463'
+  },
+  {
+    name: "Representin' Inc.",
+    id: 88,
+    website: 'https://www.littleessentials.org/',
+    description: "Representin' Inc. established in 1997 to provide supplementary educational programs in an effort to enhance traditional school curriculum. The focus of the organization presently is to provide young adults (ages 14-25) with basic economic literacy and basic business management fundamentals.",
+    location: 'PO Box 652',
+    postcode: '56374'
+  },
+  {
+    name: 'Neumans Kitchen Inc',
+    id: 89,
+    website: 'https://www.fantas-eyes.com/',
+    description: 'Brings top-level service to events and catering in NYC, Philadelphia, Manhattan & Brooklyn | Weddings | Social Event Planning |',
+    location: '3502 48TH Ave',
+    postcode: '11582'
+  },
+  {
+    name: 'New York City District of the Amateur Radio Emergency Service',
+    id: 90,
+    website: 'https://www.trrhelp.org',
+    description: 'NYC ARES is the local chapter of ARES - The Amateur Radio Emergency Service. We enable current or future amateur radio license holders to help the community if disaster strikes. We work closely with organizations like the Red Cross and emergency management groups.',
+    location: '250 Baltic St',
+    postcode: '11201'
+  },
+  {
+    name: 'NPower',
+    id: 91,
+    website: 'http://downtownbrooklyn.com',
+    description: 'NPower creates pathways to economic prosperity by launching digital careers for military veterans and young adults from underserved communities. We offer free IT training leading to industry-recognized credentials, career support and building employment pipelines.',
+    location: '50 Greene Avenue',
+    postcode: '11238'
+  },
+  {
+    name: 'NYDesigns',
+    id: 92,
+    website: 'http://www.counselinginschools.org/',
+    description: 'Founded in 2006, NYDesigns is dedicated to the success\n' +
+      'of design and hardware tech startups in NYC. NYDesigns is a program of LaGuardia Community College.',
+    location: '29-10 Thomson Avenue',
+    postcode: '11101'
+  },
+  {
+    name: 'NYU Langone',
+    id: 93,
+    website: 'https://nyulangone.org/',
+    description: 'NYU Langone Health is one of the nation’s premier academic medical centers. Our trifold mission to serve, teach, and discover is achieved daily through an integrated academic culture devoted to excellence in patient care, education, and research.',
+    location: '550 1st Ave',
+    postcode: '10016'
+  },
+  {
+    name: 'Office of Nightlife',
+    id: 94,
+    website: 'https://www.cevalogistics.com',
+    description: 'The Office of Nightlife, at the Mayor’s Office of Media and Entertainment, is as an intermediary between City and State agencies, and nightlife businesses, employees, performers, patrons, and residents. Its mission is to support a more efficient, vibrant, safe, and fair nightlife, for everyone.',
+    location: '1697 Broadway',
+    postcode: '10019'
+  },
+  {
+    name: "St. Ann's Episcopal Church",
+    id: 95,
+    website: 'Http://stannssouthbronx.org',
+    description: "This program is geared toward the needy. It’s an emergency food relief program at St. Ann's Episcopal Church. There are 13 tasks for which we need volunteers to execute under the guidance of a church member to help feed the publics at-risk population. The project runs every Sunday from 10-2:30 pm.",
+    location: '295',
+    postcode: '10454'
+  },
+  {
+    name: 'Open Run Baisley Pond Park',
+    id: 96,
+    website: 'https://openrun.nyrr.org/#baisley-pond-park',
+    description: 'NYRR Open Run is a community-based, volunteer-led running initiative - bringing free weekly runs to Baisley Pond Park. Open Run will take place every week on Saturdays at 9am (participants 8:45 am to check in). Open Run is for all ages and abilities, dogs and strollers are welcome.',
+    location: 'Directly across from 156-10 Baisley Blvd',
+    postcode: '11434'
+  },
+  {
+    name: 'Pan American Art Research Inc. - aka PAMAR',
+    id: 97,
+    website: 'http://mandalacafe.org',
+    description: 'Pan American Musical Art Research, Inc., (PAMAR) is a non-profit organization seeking to promote better understanding between the various cultures and countries of the Americas, primarily through an ongoing and vital exchange of their music, musicians and dancers.',
+    location: '601 W 26th St #325 MB26',
+    postcode: '10001'
+  },
+  {
+    name: 'Place For Cats, Inc.',
+    id: 98,
+    website: 'http://www.placeforcats.org/',
+    description: 'Place For Cats is a rescue and adoption organization incorporated in the State of New York. Since 1990 we have found loving homes for 1,400 strays. We operate via a foster home network and function entirely on donations.',
+    location: 'Locations May Vary',
+    postcode: '10022'
+  },
+  {
+    name: 'Project Hope Charities Inc.',
+    id: 99,
+    website: 'http://www.cityparksfoundation.org',
+    description: 'Project: HOPE is a non-profit organization, established to serve the low-income community in areas where the government is unable to reach through our Food Pantry and many outreach programs.',
+    location: '170-20 140th Avenue',
+    postcode: '11434'
+  }
+]
