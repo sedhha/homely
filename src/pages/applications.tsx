@@ -26,7 +26,7 @@ const Applications: NextPage = () => {
                 <th>{jobfield.description}</th>
                 <th>{new Date(jobfield.deadline).toDateString()}</th>
 
-                <th>{'PENDIENT'}</th>
+                <th>{'Pending'}</th>
               </tr>
             ))}
           </tbody>
