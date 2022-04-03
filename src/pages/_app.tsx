@@ -5,6 +5,7 @@ import type { AppProps } from "next/app";
 import { useEffect } from "react";
 
 import store from "../app/store";
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 import BaseWrapper from '@homely-components/Base/BaseWrapper';

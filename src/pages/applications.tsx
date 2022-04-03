@@ -9,27 +9,29 @@ const Applications: NextPage = () => {
   return (
     <>
       <Header />
-      <h1>My Applications</h1>
-      <table className="table table-hover">
-        <thead>
-          <tr>
-            <th>Job Title</th>
-            <th>Description</th>
-            <th>Deadline</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          {JobFields.map((jobfield) => (
+      <div className="container">
+        <h1>My Applications</h1>
+        <table className="table table-hover">
+          <thead>
             <tr>
-              <th>{jobfield.jobTitle}</th>
-              <th>{jobfield.description}</th>
-              <th>{jobfield.deadline}</th>
-              <th>{"PENDIENT"}</th>
+              <th>Job Title</th>
+              <th>Description</th>
+              <th>Deadline</th>
+              <th>Status</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {JobFields.map((jobfield) => (
+              <tr>
+                <th>{jobfield.jobTitle}</th>
+                <th>{jobfield.description}</th>
+                <th>{jobfield.deadline}</th>
+                <th>{"PENDIENT"}</th>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </>
   );
 };

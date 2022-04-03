@@ -4,9 +4,9 @@ import Header from "../components/header";
 const IndexPage: NextPage = () => {
   return (
     <>
-      <Header />
-      <h1>Job List</h1>
       <div className="container-lg">
+        <Header />
+        <h1>Job List</h1>
         <table className="table table-hover">
           <thead>
             <tr>
