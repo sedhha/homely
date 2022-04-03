@@ -9,20 +9,12 @@ import {
   useDisclosure,
   useColorModeValue,
   Stack,
-<<<<<<< HEAD
-} from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon, ArrowForwardIcon } from "@chakra-ui/icons";
-import Image from "next/image";
-import NextLink from "next/link";
-import { useRouter } from "next/router";
-=======
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useAppSelector } from '@redux-store/hooks';
->>>>>>> main
 
 const Links = [
   {
@@ -140,11 +132,7 @@ export default function Dashboard() {
             >
               Log Out
             </Button>
-<<<<<<< HEAD
-            <Avatar size={"sm"} src={"https://i.pravatar.cc/500"} />
-=======
             <Avatar size={'sm'} src={`https://i.pravatar.cc/150?u=${email}`} />
->>>>>>> main
           </Flex>
         </Flex>
         {isOpen ? (
