@@ -11,12 +11,14 @@ export const getUser = async (
   return Server.auth
     .verifyIdToken(token)
     .then((claims) => {
-      return {
-        uid: claims.uid ?? '',
-        email: claims.email ?? '',
-        userType: claims['userType'] ?? 'Undefined',
-        validUser: true,
-      };
+      return Server.auth.getUser(claims.uid).then((userRecord) => {
+        return {
+          uid: claims.uid ?? '',
+          email: claims.email ?? '',
+          userType: userRecord.customClaims?.['userType'] ?? 'Undefined',
+          validUser: true,
+        };
+      });
     })
     .catch((error: FirebaseError) => ({
       validUser: false,
