@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
+import Header from "src/components/header";
 
 const profile: NextPage = () => {
   return (
     <>
+      <Header />
       <h1>Profile</h1>
       <form>
         <div className="form-group">
