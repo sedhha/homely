@@ -88,7 +88,8 @@ export const signInUser = async (
 export const registerFirebaseUser = async (
   email: string,
   password: string,
-  userType: FirebaseUserType
+  userType: FirebaseUserType,
+  displayName: string
 ): Promise<IResponse> => {
   return fetch('/api/register-user', {
     method: 'POST',
@@ -99,6 +100,7 @@ export const registerFirebaseUser = async (
       email,
       password,
       userType,
+      displayName,
     } as IRegistrationForm),
   }).then((response) => response.json().then((data) => data as IResponse));
 };

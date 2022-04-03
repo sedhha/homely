@@ -14,11 +14,16 @@ import { FirebaseError } from 'firebase-admin';
 export const registerFirebaseUser = async (
   payload: IRegistrationForm
 ): Promise<IResponse> => {
-  const { email, password, userType } = payload;
+  const { email, password, userType, displayName } = payload;
   if (!firebaseUserTypes.includes(userType))
     return errorResponse({
       message: 'Invalid User Type, Must be: "Job Seeker" or "Employer"',
     });
+  if (!displayName || displayName.length < 2) {
+    return errorResponse({
+      message: 'Invalid Display Name, Must be at least 2 characters',
+    });
+  }
 
   return Server.auth
     .createUser({
@@ -26,6 +31,9 @@ export const registerFirebaseUser = async (
       password,
     } as CreateRequest)
     .then((user) => {
+      Server.auth.updateUser(user.uid, {
+        displayName,
+      });
       Server.auth.setCustomUserClaims(user.uid, { userType });
       return genericResponse({
         message: 'User Created Successfully',

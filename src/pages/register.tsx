@@ -39,7 +39,6 @@ const App = () => {
   const handleShowClick = () => setShowPassword(!showPassword);
 
   const { authToken } = useAppSelector((state) => state.user);
-  const [mounted, setMounted] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
@@ -50,16 +49,13 @@ const App = () => {
 
   const toast = useToast();
 
-  useEffect(() => {
-    return () => setMounted(false);
-  }, []);
-
   const registerUser = () => {
     setLoading(true);
     Client.registerFirebaseUser(
       email,
       password,
-      value as FirebaseUserType
+      value as FirebaseUserType,
+      name
     ).then((response) => {
       if (response.error) {
         setLoading(false);
@@ -176,7 +172,7 @@ const App = () => {
                   colorScheme='teal'
                   onClick={registerUser}
                   width='full'>
-                  Register
+                  Sign Up
                 </Button>
               )}
             </Stack>
