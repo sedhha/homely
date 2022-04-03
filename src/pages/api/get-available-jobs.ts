@@ -1,5 +1,5 @@
 import { getJobs } from '@homely-backend/homeless/getJobs';
-import { withUserProtect } from '@homely-backend/middleware/withUserProtect';
+import { withProtect } from '@homely-backend/middleware/withProtect';
 import { genericResponse } from '@homely-backend/responseSynthesizer';
 import type { NextApiHandler } from 'next';
 
@@ -8,4 +8,4 @@ const countHandler: NextApiHandler = async (request, response) => {
   response.status(200).json(genericResponse({ payload: jobs }));
 };
 
-export default withUserProtect(countHandler);
+export default withProtect(countHandler);
