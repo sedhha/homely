@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { useEffect, useState } from "react";
 import Header from "../components/header";
 import { useAppSelector, useAppDispatch } from "@redux-store/hooks";
-import { Input } from '@chakra-ui/react'
 
 const IndexPage: NextPage = () => {
   const [jobList, setJobList] = useState([]);
