@@ -1,0 +1,977 @@
+[
+  {
+    jobTitle: 'Pre- Employment and Education Verification Specialist (Entry...',
+    description: ' \n' +
+      ' After a comprehensive, online, self-paced training experience, you’ll follow a carefully scripted set of prompts to perform outbound phone calls focused on…\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Mobile, AL',
+    companyName: 'SJV Data Solutions',
+    salary: '$12 an hour'
+  },
+  {
+    jobTitle: 'Team members and Shift leaders',
+    description: ' \n' +
+      ' Making açaí bowls and salads.\n' +
+      ' Job Types: Full-time, Part-time.\n' +
+      ' Job Types: Full-time, Part-time.\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Brooklyn, NY 11201',
+    companyName: 'The Juice Shop',
+    salary: '$15 - $17 an hour'
+  },
+  {
+    jobTitle: 'newFull-Time Front Desk Coordinator',
+    description: ' \n' +
+      ' Position will be full time Monday thru Friday.\n' +
+      ' Greeting patients warmly upon check-in, managing scheduling and keeping appointments on time by notifying…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10010 (NoMad area)',
+    companyName: 'Metro Sports Physical Therapy',
+    salary: '$16 - $20 an hour'
+  },
+  {
+    jobTitle: 'newFurniture Maker *urgent*',
+    description: ' \n' +
+      ' We offer a full service solution with expertise in design, project management, digital fabrication, digital print, carpentry, metalwork, finishing and…\n',
+    deadline: 'Full-time',
+    workHours: '10 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Long Island City, NY 11101',
+    companyName: 'Volume Industries',
+    salary: '$25 - $35 an hour'
+  },
+  {
+    jobTitle: "newServer, Rowland's Bar and Grill - Hiring Immediately",
+    description: ' \n' +
+      ' _ $1000 Referral bonus for all current associates.\n' +
+      ' Refer someone who is successfully hired into this role for 90 days and receive a $1000 referral bonus._.\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10165 (Murray Hill area)',
+    companyName: 'Delaware North',
+    salary: '$10 an hour'
+  },
+  {
+    jobTitle: 'Amazon Delivery Service Partner Associate-Foot Messenger',
+    description: ' \n' +
+      ' YOU MUST BE AT LEAST 18 YEARS OLD!\n' +
+      ' $16.00 per hour, 7 hours 5 days a week (including 1 weekend day)*.\n' +
+      ' Interviews will be done via Telephone and offers can be…\n',
+    deadline: 'Full-time',
+    workHours: 'Day shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Manhattan, NY',
+    companyName: 'Undisputed Logistix',
+    salary: '$16 an hour'
+  },
+  {
+    jobTitle: 'newExecutive Chef - Hiring Immediately',
+    description: ' \n' +
+      ' These are just some of the benefits we offer: health, dental, and vision insurance, 401(k) with company match, performance bonuses, paid vacation days and…\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10165 (Murray Hill area)',
+    companyName: 'Delaware North',
+    salary: '$110,000 - $120,000 a year'
+  },
+  {
+    jobTitle: 'Doorman',
+    description: ' \n' +
+      ' Compensation: $15-$20 per hour depending on experience.\n' +
+      ' One of the nicest doorman buildings in Brooklyn is seeking a Doorman to assist the residents and provide…\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Brooklyn, NY 11211',
+    companyName: 'Leiter Management',
+    salary: '$15 - $20 an hour'
+  },
+  {
+    jobTitle: 'newHUMANITARIAN AFFAIRS OFFICER [Temporary]',
+    description: ' \n' +
+      ' OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'United Nations',
+    salary: 'Temporary'
+  },
+  {
+    jobTitle: 'Porter (Evening Cleaner/Dishwasher) Hiring ASAP',
+    description: ' \n' +
+      ' We are looking for a Dishwasher to join our kitchen staff and maintain cleanliness around our Bakery.\n' +
+      ' If you want to kick start your career in the restaurant…\n',
+    deadline: 'Part-time ',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10036 (Midtown area)',
+    companyName: 'Patis Bakery',
+    salary: '$16 - $18 an hour'
+  },
+  {
+    jobTitle: 'Urgent Assistant Project Manager/Construction/Glass Metal',
+    description: ' \n' +
+      ' Communicating with stakeholders regarding project needs and goals.\n' +
+      ' Contributing to the planning and development of projects.\n' +
+      ' Job Types: Full-time, Contract.\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10001 (Chelsea area)',
+    companyName: 'arcnetinnovation',
+    salary: '$70,000 - $95,000 a year'
+  },
+  {
+    jobTitle: 'newTM/EDD Analyst Consultant - NYC Banking',
+    description: ' \n' +
+      ' Assist in management of various BSA/Regulatory projects.\n' +
+      ' Oversee CIP, CDD, EDD, KYC Reviews.\n' +
+      ' Manage ad hoc tasks assigned by BSA Compliance Officer-Required to…\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10001 (Garment District area)',
+    companyName: 'J&A Consulting, LLC',
+    salary: 'From $62 an hour'
+  },
+  {
+    jobTitle: 'Remote Inbound Phone Sales Closers (MUST RESIDE IN FLORIDA)',
+    description: ' \n' +
+      ' HIRING IMMEDIATELY- $750 SIGN ON BONUS *($350 AFTER WEEK 4, $200 AFTER WEEK 6, AND $200 AFTER WEEK 8).\n' +
+      ' High speed internet (must have hardwired connection).\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Florida',
+    companyName: 'ThinkDirect Marketing Group',
+    salary: '$13 - $22 an hour'
+  },
+  {
+    jobTitle: 'Border Patrol Agent GL-7',
+    description: ' \n' +
+      " As a Border Patrol Agent with U.S. Customs and Border Protection (CBP), you will be part of one of the world's largest law enforcement organizations charged…\n",
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'California',
+    companyName: 'U.S. Customs and Border Protection',
+    salary: '$50,704 - $80,151 a year'
+  },
+  {
+    jobTitle: 'newQA Engineer',
+    description: ' \n' +
+      " We're a Texas-based company that loves making powerful and intuitive web-based software for K-12 educators so they can focus on spending more time with their…\n",
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote',
+    companyName: 'Eduphoria',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'newFull-Time Front Desk Coordinator',
+    description: ' \n' +
+      ' Position will be full time Monday thru Friday.\n' +
+      ' Greeting patients warmly upon check-in, managing scheduling and keeping appointments on time by notifying…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10010 (NoMad area)',
+    companyName: 'Metro Sports Physical Therapy',
+    salary: '$16 - $20 an hour'
+  },
+  {
+    jobTitle: 'Home Inspectors Urgently Needed in CT, RI, MA',
+    description: ' \n' +
+      ' Job Types: Full-time, Contract.\n' +
+      ' 2 doses of the Covid-19 vaccine are required to attend this workshop.\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Connecticut',
+    companyName: 'AA-MSA Inc Inspection & Environmental Testing',
+    salary: '$75,000 - $150,000 a year'
+  },
+  {
+    jobTitle: 'Amazon Delivery Service Partner Associate-Foot Messenger',
+    description: ' \n' +
+      ' YOU MUST BE AT LEAST 18 YEARS OLD!\n' +
+      ' $16.00 per hour, 7 hours 5 days a week (including 1 weekend day)*.\n' +
+      ' Interviews will be done via Telephone and offers can be…\n',
+    deadline: 'Full-time',
+    workHours: 'Day shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Manhattan, NY',
+    companyName: 'Undisputed Logistix',
+    salary: '$16 an hour'
+  },
+  {
+    jobTitle: '$16-$22HR -NOW HIRING SECURITY GUARDS FT! MEET US FRIDAY 3/2...',
+    description: ' \n' +
+      ' NYS Security License, 8 and 16 hour certificates, Covid Vaccination, F02 required for shelter or be willing to obtain.\n' +
+      ' Best Rate - up to $18hr FT.\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10016 (Gramercy area)',
+    companyName: 'Grant Associates Inc',
+    salary: '$16 - $22 an hour'
+  },
+  {
+    jobTitle: 'Doorman',
+    description: ' \n' +
+      ' Compensation: $15-$20 per hour depending on experience.\n' +
+      ' One of the nicest doorman buildings in Brooklyn is seeking a Doorman to assist the residents and provide…\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Brooklyn, NY 11211',
+    companyName: 'Leiter Management',
+    salary: '$15 - $20 an hour'
+  },
+  {
+    jobTitle: 'newHUMANITARIAN AFFAIRS OFFICER [Temporary]',
+    description: ' \n' +
+      ' OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'United Nations',
+    salary: 'Temporary'
+  },
+  {
+    jobTitle: 'Porter (Evening Cleaner/Dishwasher) Hiring ASAP',
+    description: ' \n' +
+      ' We are looking for a Dishwasher to join our kitchen staff and maintain cleanliness around our Bakery.\n' +
+      ' If you want to kick start your career in the restaurant…\n',
+    deadline: 'Part-time ',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10036 (Midtown area)',
+    companyName: 'Patis Bakery',
+    salary: '$16 - $18 an hour'
+  },
+  {
+    jobTitle: 'Urgent Assistant Project Manager/Construction/Glass Metal',
+    description: ' \n' +
+      ' Communicating with stakeholders regarding project needs and goals.\n' +
+      ' Contributing to the planning and development of projects.\n' +
+      ' Job Types: Full-time, Contract.\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10001 (Chelsea area)',
+    companyName: 'arcnetinnovation',
+    salary: '$70,000 - $95,000 a year'
+  },
+  {
+    jobTitle: 'newTM/EDD Analyst Consultant - NYC Banking',
+    description: ' \n' +
+      ' Assist in management of various BSA/Regulatory projects.\n' +
+      ' Oversee CIP, CDD, EDD, KYC Reviews.\n' +
+      ' Manage ad hoc tasks assigned by BSA Compliance Officer-Required to…\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10001 (Garment District area)',
+    companyName: 'J&A Consulting, LLC',
+    salary: 'From $62 an hour'
+  },
+  {
+    jobTitle: '[Immediate Hire] Kindergarten Teacher',
+    description: ' \n' +
+      ' Reporting to the Academic Dean, the Kindergarten Teacher will be responsible for building meaningful relationships with students, implementing a Common Core…\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Bronx, NY 10454 (Mott Haven area)',
+    companyName: 'DREAM Charter School',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'Part Time Sports Ambassador (New York City)',
+    description: ' \n' +
+      ' CLEAR Sports Ambassadors work in sports and entertainment venues to securely verify current members.\n' +
+      ' We are looking for part-time/events based ambassadors to…\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'CLEAR - Field',
+    salary: 'Part-time'
+  },
+  {
+    jobTitle: 'newQA Engineer',
+    description: ' \n' +
+      " We're a Texas-based company that loves making powerful and intuitive web-based software for K-12 educators so they can focus on spending more time with their…\n",
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote',
+    companyName: 'Eduphoria',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'Warehouse Order Selector',
+    description: ' \n' +
+      ' IMMEDIATELY HIRING Warehouse Order Selectors up to $86,000/year **NO EXPERIENCE REQUIRED**.\n' +
+      ' *Earn up to $86,000 per year including base, overtime, and…\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Sacramento, CA',
+    companyName: 'Sysco Sacramento',
+    salary: 'Up to $86,000 a year'
+  },
+  {
+    jobTitle: 'Remote Inbound Phone Sales Closers (MUST RESIDE IN TENNESSEE...',
+    description: ' \n' +
+      ' Remote Inbound Phone Sales Closers.\n' +
+      ' HIRING IMMEDIATELY- $750 SIGN ON BONUS ($350 AFTER WEEK 4, $200 AFTER WEEK 6, AND $200 AFTER WEEK 8).\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Tennessee',
+    companyName: 'ThinkDirect Marketing Group',
+    salary: '$12 - $22 an hour'
+  },
+  {
+    jobTitle: 'Border Patrol Agent GL-9',
+    description: ' \n' +
+      " As a Border Patrol Agent with U.S. Customs and Border Protection (CBP), you will be part of one of the world's largest law enforcement organizations charged…\n",
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'North Carolina',
+    companyName: 'U.S. Customs and Border Protection',
+    salary: '$56,551 - $91,213 a year'
+  },
+  {
+    jobTitle: 'newFind jobs with Flexible Hours!',
+    description: ' \n' +
+      ' Whether it’s hiring for online work from home, part time, entry level or no experience jobs, you get to set your own schedule!\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York State',
+    companyName: 'Indeed Gigs',
+    salary: 'Part-time +2'
+  },
+  {
+    jobTitle: 'Now Hiring 100+ Work from Home Customer Service Agents',
+    description: ' \n' +
+      ' Full-Time Customer Relationship Representative- Mortgage Retention (Work From Home-Remote).\n' +
+      ' If you are looking for an entry level position with opportunities…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: '+1 locationRemote',
+    companyName: 'AllianceOne',
+    salary: 'From $15 an hour'
+  },
+  {
+    jobTitle: 'HIRING NOW - Cleaner Positions',
+    description: ' \n' +
+      ' We are looking for people who are willing to do at least one or two residential cleans per day for 3-4 hour stretches.\n' +
+      ' Steel-shine appliances and fixtures.\n',
+    deadline: 'Temporary ',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'MyClean',
+    salary: '$16 an hour'
+  },
+  {
+    jobTitle: 'Customer Care Specialist (NY/NJ)',
+    description: ' \n' +
+      " The ideal candidate is a self-starter with a passion for delivering results and enriching our members' experience.\n" +
+      ' Competitive hourly rate of $18.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in New York, NY',
+    companyName: 'CLEAR - Field',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'Modeling and Talent Director',
+    description: ' \n' +
+      ' New York, NY 10036: Reliably commute or planning to relocate before starting work (Required).\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10036 (Midtown area)',
+    companyName: 'Barbizon NYC',
+    salary: '$60,000 - $180,000 a year'
+  },
+  {
+    jobTitle: 'Retail Associate NOW HIRING',
+    description: ' \n' +
+      ' Responsible for delivering a highly satisfied customer experience demonstrated by engaging and interacting with all customers, embodying customer experience…\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10005 (Financial District area)',
+    companyName: 'TJ Maxx',
+    salary: undefined
+  },
+  {
+    jobTitle: 'newSales Associate',
+    description: ' \n' +
+      ' On-going need to fill this role.\n' +
+      ' 2 years sales experience (Preferred).\n' +
+      ' High school or equivalent (Preferred).\n' +
+      ' Prospect leads through a combination of warm leads…\n',
+    deadline: 'Temporary ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Baltimore, MD',
+    companyName: 'Blue Hawk Payments, LLC',
+    salary: '$75,000 - $100,000 a year'
+  },
+  {
+    jobTitle: 'newPayment Processing Outside Sales',
+    description: ' \n' +
+      ' Payment Processing Outside Sales 1099 (weekly draw).\n' +
+      ' We are looking to hire an enthusiastic and driven outside sales representative to run our marketing sept…\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'Tapin',
+    salary: 'Up to $120,000 a year'
+  },
+  {
+    jobTitle: 'Barista and Customer Service',
+    description: ' \n' +
+      ' Coffee company opening 100+ stores in the next 12 months hiring immediately for Baristas and in-store customer service.\n' +
+      ' Job Types: Full-time, Part-time.\n',
+    deadline: 'Part-time ',
+    workHours: 'Day shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10010 (NoMad area)',
+    companyName: 'Trice Coffee',
+    salary: '$20 - $30 an hour'
+  },
+  {
+    jobTitle: 'newManhattan FedEx Terminal is Hiring Delivery Drivers ! APPLY...',
+    description: ' \n' +
+      ' Full time, and part time positions available .\n' +
+      ' Base pay is $15/hr.\n' +
+      ' But after Performance Bonus added.\n' +
+      ' Drivers can make as much as $160-250 a day.\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Queens, NY 11370',
+    companyName: 'Fedex Ground',
+    salary: '$125 - $250 a day'
+  },
+  {
+    jobTitle: 'newFull-Time Front Desk Coordinator',
+    description: ' \n' +
+      ' Position will be full time Monday thru Friday.\n' +
+      ' Greeting patients warmly upon check-in, managing scheduling and keeping appointments on time by notifying…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10010 (NoMad area)',
+    companyName: 'Metro Sports Physical Therapy',
+    salary: '$16 - $20 an hour'
+  },
+  {
+    jobTitle: 'newMedical Director-Urgent Care- New York, NY',
+    description: ' \n' +
+      ' Provide direct care to patients of all ages who present to our centers for routine care and a wide variety of urgent medical complaints.\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'MedLead Careers',
+    salary: '$300,000 - $350,000 a year'
+  },
+  {
+    jobTitle: 'In Home Caregiver',
+    description: ' \n' +
+      ' Senior Helpers prides itself on offering a customer-focused caregiving experience, and you will have the chance to use your interpersonal skills to provide…\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'Senior Helpers - Rockland & South Orange Counties',
+    salary: 'Part-time'
+  },
+  {
+    jobTitle: 'Amazon Delivery Service Partner Associate-Foot Messenger',
+    description: ' \n' +
+      ' YOU MUST BE AT LEAST 18 YEARS OLD!\n' +
+      ' $16.00 per hour, 7 hours 5 days a week (including 1 weekend day)*.\n' +
+      ' Interviews will be done via Telephone and offers can be…\n',
+    deadline: 'Full-time',
+    workHours: 'Day shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Manhattan, NY',
+    companyName: 'Undisputed Logistix',
+    salary: '$16 an hour'
+  },
+  {
+    jobTitle: 'E-Bike Technician',
+    description: ' \n' +
+      ' Assembling/disassembling and identifying different types (ITA/ING) of bottom brackets.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10018 (Clinton area)',
+    companyName: 'Dutch-X',
+    salary: 'Day shift'
+  },
+  {
+    jobTitle: 'newFull-Time Front Desk Coordinator',
+    description: ' \n' +
+      ' Position will be full time Monday thru Friday.\n' +
+      ' Greeting patients warmly upon check-in, managing scheduling and keeping appointments on time by notifying…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10010 (NoMad area)',
+    companyName: 'Metro Sports Physical Therapy',
+    salary: '$16 - $20 an hour'
+  },
+  {
+    jobTitle: 'Direct Support Professionals (DSP) - ALL FIVE BOROUGHS',
+    description: ' \n' +
+      ' FULL MEDICAL BENEFITS AT NO CHARGE TO YOU!*.\n' +
+      ' AHRC NYC’s programs provide person-centered support for positive change and personal improvement.\n',
+    deadline: 'Part-time ',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'AHRC New York City',
+    salary: '$15 - $17 an hour'
+  },
+  {
+    jobTitle: 'Urgent Assistant Project Manager/Construction/Glass Metal',
+    description: ' \n' +
+      ' Communicating with stakeholders regarding project needs and goals.\n' +
+      ' Contributing to the planning and development of projects.\n' +
+      ' Job Types: Full-time, Contract.\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10001 (Chelsea area)',
+    companyName: 'arcnetinnovation',
+    salary: '$70,000 - $95,000 a year'
+  },
+  {
+    jobTitle: 'Operations Manager, Fueling - LGA',
+    description: ' \n' +
+      ' Responsible for day-to-day safe and efficient operation of into-plane and GSE fueling operations including activity scheduling, manpower planning, fuel quality…\n',
+    deadline: 'Full-time',
+    workHours: '12 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'East Elmhurst, NY',
+    companyName: 'Swissport International Ltd.',
+    salary: '$110,000 - $120,000 a year'
+  },
+  {
+    jobTitle: 'Amazon Delivery Service Partner Associate-Foot Messenger',
+    description: ' \n' +
+      ' YOU MUST BE AT LEAST 18 YEARS OLD!\n' +
+      ' $16.00 per hour, 7 hours 5 days a week (including 1 weekend day)*.\n' +
+      ' Interviews will be done via Telephone and offers can be…\n',
+    deadline: 'Full-time',
+    workHours: 'Day shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Manhattan, NY',
+    companyName: 'Undisputed Logistix',
+    salary: '$16 an hour'
+  },
+  {
+    jobTitle: 'Home Inspectors Urgently Needed in CT, RI, MA',
+    description: ' \n' +
+      ' Job Types: Full-time, Contract.\n' +
+      ' 2 doses of the Covid-19 vaccine are required to attend this workshop.\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Connecticut',
+    companyName: 'AA-MSA Inc Inspection & Environmental Testing',
+    salary: '$75,000 - $150,000 a year'
+  },
+  {
+    jobTitle: 'New Restaurant Opening in Amsterdam - Now Hiring (3883)',
+    description: ' \n' +
+      ' Tuition assistance (100% coverage for select degrees or up to $5,250/year).\n' +
+      ' Free food (yes, really FREE).\n' +
+      ' Medical, dental, and vision insurance.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Amsterdam, NY',
+    companyName: 'Chipotle',
+    salary: 'Part-time +1'
+  },
+  {
+    jobTitle: 'newPayment Processing Outside Sales',
+    description: ' \n' +
+      ' Payment Processing Outside Sales 1099 (weekly draw).\n' +
+      ' We are looking to hire an enthusiastic and driven outside sales representative to run our marketing sept…\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'Tapin',
+    salary: 'Up to $120,000 a year'
+  },
+  {
+    jobTitle: 'Associate (Immediate Start)',
+    description: ' \n' +
+      ' People who have the skills to build strong relationships with them.\n' +
+      ' People who can communicate the needs of our clients credibly and effectively.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'Third Bridge',
+    salary: undefined
+  },
+  {
+    jobTitle: 'newAppointment Setter',
+    description: ' \n' +
+      ' The Inside Sales Rep is responsible for setting appointments for Vice Presidents.\n' +
+      ' The Rep will make between 60 to 100 calls per day to qualify the prospects and…\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Remote in Dallas, TX 75251',
+    companyName: 'Abba Staffing & Consulting',
+    salary: '$50,000 - $60,000 a year'
+  },
+  {
+    jobTitle: 'newUrgent Opening - Compliance Coordinator -Start ASAP',
+    description: ' \n' +
+      ' Job Description: *The Compliance Coordinator is responsible for overseeing a program designed to reduce preventable injuries and accidents to patient by…\n',
+    deadline: 'Full-time ',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Chelsea, MA',
+    companyName: 'Inficare',
+    salary: 'From $35 an hour'
+  },
+  {
+    jobTitle: 'newInspection Technician',
+    description: ' \n' +
+      ' This is a full-time, permanent position that offers full benefits with HUGE room for growth and advancement.\n' +
+      ' Bi-annual reviews for pay increase.\n',
+    deadline: '8 hour shift',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Elmsford, NY',
+    companyName: 'Sunpower Corporation',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'Urgent: Onsite Spanish Teacher Needed',
+    description: ' \n' +
+      ' We (Language Learning Network) are looking for experienced, passionate, and dedicated Spanish teachers who are interested in teaching *onsite*.\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Montclair, NJ',
+    companyName: 'Language Learning Network',
+    salary: 'From $35 an hour'
+  },
+  {
+    jobTitle: 'Urgently Hiring* 5/2/22 Start Date - Customer Service Repres...',
+    description: ' \n' +
+      ' Are very comfortable communicating with customers in a metrics-driven environment.\n' +
+      ' Are able to navigate multiple technologies while staying engaged with our…\n',
+    deadline: '8 hour shift ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Springfield, MO 65807 (Kickapoo area)',
+    companyName: 'Chase',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'Shiftleader',
+    description: ' \n' +
+      ' Bring your positive energy and motivation to provide exceptional guest service and support!\n' +
+      ' Part-time and Full-time positions available - Join our Team!\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10038 (Financial District area)',
+    companyName: 'Wetzel Pretzel - Wetzels Fulton Station',
+    salary: 'Part-time +1'
+  },
+  {
+    jobTitle: "newServer, Rowland's Bar and Grill - Hiring Immediately",
+    description: ' \n' +
+      ' _ $1000 Referral bonus for all current associates.\n' +
+      ' Refer someone who is successfully hired into this role for 90 days and receive a $1000 referral bonus._.\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10165 (Murray Hill area)',
+    companyName: 'Delaware North',
+    salary: '$10 an hour'
+  },
+  {
+    jobTitle: 'newFurniture Maker *urgent*',
+    description: ' \n' +
+      ' We offer a full service solution with expertise in design, project management, digital fabrication, digital print, carpentry, metalwork, finishing and…\n',
+    deadline: 'Full-time',
+    workHours: '10 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Long Island City, NY 11101',
+    companyName: 'Volume Industries',
+    salary: '$25 - $35 an hour'
+  },
+  {
+    jobTitle: 'newFull-Time Front Desk Coordinator',
+    description: ' \n' +
+      ' Position will be full time Monday thru Friday.\n' +
+      ' Greeting patients warmly upon check-in, managing scheduling and keeping appointments on time by notifying…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10010 (NoMad area)',
+    companyName: 'Metro Sports Physical Therapy',
+    salary: '$16 - $20 an hour'
+  },
+  {
+    jobTitle: 'Qns/Bklyn/Manhattan Unarmed Car and Standing Post Immediate...',
+    description: ' \n' +
+      ' POST WOULD REQUIRE A QUALIFIED GUARD TO MAN A POST IN THEIR OWN VEHICLE , OR STANDING POST IN VARIOUS AREAS THROUGOUT BKLYN, QUEENS, AND MANHATTAN.\n',
+    deadline: 'Part-time ',
+    workHours: '12 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'Metro One Loss Prevention',
+    salary: '$18 - $20 an hour'
+  },
+  {
+    jobTitle: 'newCarpenter/Cabinet Maker *urgent*',
+    description: ' \n' +
+      ' We offer a full service solution with expertise in design, project management, digital fabrication, digital print, carpentry, metalwork, finishing and…\n',
+    deadline: 'Full-time',
+    workHours: '10 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Long Island City, NY 11101',
+    companyName: 'Volume Industries',
+    salary: '$25 - $35 an hour'
+  },
+  {
+    jobTitle: 'Urgent Assistant Project Manager/Construction/Glass Metal',
+    description: ' \n' +
+      ' Communicating with stakeholders regarding project needs and goals.\n' +
+      ' Contributing to the planning and development of projects.\n' +
+      ' Job Types: Full-time, Contract.\n',
+    deadline: 'Full-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY 10001 (Chelsea area)',
+    companyName: 'arcnetinnovation',
+    salary: '$70,000 - $95,000 a year'
+  },
+  {
+    jobTitle: 'Operations Manager, Fueling - LGA',
+    description: ' \n' +
+      ' Responsible for day-to-day safe and efficient operation of into-plane and GSE fueling operations including activity scheduling, manpower planning, fuel quality…\n',
+    deadline: 'Full-time',
+    workHours: '12 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'East Elmhurst, NY',
+    companyName: 'Swissport International Ltd.',
+    salary: '$110,000 - $120,000 a year'
+  },
+  {
+    jobTitle: 'Amazon Delivery Service Partner Associate-Foot Messenger',
+    description: ' \n' +
+      ' YOU MUST BE AT LEAST 18 YEARS OLD!\n' +
+      ' $16.00 per hour, 7 hours 5 days a week (including 1 weekend day)*.\n' +
+      ' Interviews will be done via Telephone and offers can be…\n',
+    deadline: 'Full-time',
+    workHours: 'Day shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Manhattan, NY',
+    companyName: 'Undisputed Logistix',
+    salary: '$16 an hour'
+  },
+  {
+    jobTitle: 'newPayment Processing Outside Sales',
+    description: ' \n' +
+      ' Payment Processing Outside Sales 1099 (weekly draw).\n' +
+      ' We are looking to hire an enthusiastic and driven outside sales representative to run our marketing sept…\n',
+    deadline: 'Part-time ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'New York, NY',
+    companyName: 'Tapin',
+    salary: 'Up to $120,000 a year'
+  },
+  {
+    jobTitle: 'New Restaurant Opening in Amsterdam - Now Hiring (3883)',
+    description: ' \n' +
+      ' Tuition assistance (100% coverage for select degrees or up to $5,250/year).\n' +
+      ' Free food (yes, really FREE).\n' +
+      ' Medical, dental, and vision insurance.\n',
+    deadline: 'undefined',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Amsterdam, NY',
+    companyName: 'Chipotle',
+    salary: 'Part-time +1'
+  },
+  {
+    jobTitle: 'Administrative Data Specialist',
+    description: ' \n' +
+      ' Administrative Data Specialist (full time employment)*.\n' +
+      ' This position works with consumer data to help the agency improve business performance by using a range…\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Hybrid remote in Landover, MD 20785',
+    companyName: 'Maryland Family Resource',
+    salary: '$22 - $26 an hour'
+  },
+  {
+    jobTitle: 'newCustomer Service Associate Needed - Start Immediately',
+    description: ' \n' +
+      ' No Weekends - Monday through Friday.\n' +
+      ' Build relationships with new and existing clients.\n' +
+      ' Excellent Verbal and Written Communication Skills.\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Orlando, FL 32803 (Colonial Town Center area)',
+    companyName: 'Bridgewell Capital LLC',
+    salary: '$45,000 - $65,000 a year'
+  },
+  {
+    jobTitle: 'Client Relationship Officer (J2754:NY)',
+    description: ' \n' +
+      " They're looking for driven college graduates!\n" +
+      ' They require candidates that hold Bachelor degrees to manage client projects and enhance customer relationships.\n',
+    deadline: 'Full-time',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: "New York, NY 10018 (Hell's Kitchen area)",
+    companyName: 'Pareto',
+    salary: '$55,000 - $80,000 a year'
+  },
+  {
+    jobTitle: 'Wayfair - Warehouse Workers (Full-Time)',
+    description: ' \n' +
+      ' Sun - Wed 6:00 AM - 4:30 PM.\n' +
+      ' Wed - Sat 6:00 AM - 4:30 PM.\n' +
+      ' Mon/Tues/Thurs/Fri 6:00 AM - 4:30 PM.\n' +
+      ' 401(k) with company match.\n' +
+      ' Health benefits start day one.\n',
+    deadline: '10 hour shift ',
+    workHours: 'undefined',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Aberdeen, MD 21001',
+    companyName: 'Wayfair',
+    salary: 'Full-time'
+  },
+  {
+    jobTitle: 'Warehouse Order Selector',
+    description: ' \n' +
+      ' IMMEDIATELY HIRING Warehouse Order Selectors up to $76,000/year & $1,000 sign on bonus.\n' +
+      ' $1,000 sign on bonus.\n' +
+      ' Industry-leading total rewards package.\n',
+    deadline: 'Full-time',
+    workHours: '8 hour shift ',
+    maxCapacity: 'undefined',
+    applied: 0,
+    location: 'Halfmoon, NY 12065',
+    companyName: 'Sysco Albany, LLC',
+    salary: 'Up to $76,000 a year'
+  }
+]
