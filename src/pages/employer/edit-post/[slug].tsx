@@ -3,6 +3,8 @@ import DatePicker from "react-datepicker";
 import Header from "../../../components/header";
 import {Button} from "@chakra-ui/react"
 
+
+
 const EditPost: NextPage = () => {
   const deadline = 1649083773000;
   return (
