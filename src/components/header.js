@@ -27,6 +27,11 @@ export default function Header() {
                         <NavLink href="/employer/my-posts" className="nav-link ">My Job Posts</NavLink>
                     </li>
 
+                    
+                    <li className="nav-item">
+                        <NavLink href="/applications" className="nav-link ">Applications</NavLink>
+                    </li>
+
                     <li className="nav-item">
                         <NavLink className="nav-link " href={"#"} >Logout</NavLink>
                     </li>
