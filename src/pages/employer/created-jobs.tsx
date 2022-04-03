@@ -19,7 +19,7 @@ const EditJob: NextPage = () => {
         </div>
 
         <button type="submit" className="btn btn-primary">
-          Create Job Description
+          Post Job
         </button>
       </form>
     </>
