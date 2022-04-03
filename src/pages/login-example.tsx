@@ -5,8 +5,10 @@ import {
   IFirebaseClaims,
 } from '@homely-interfaces/Firebase/Auth';
 import React, { useEffect, useState } from 'react';
+import { useAppDispatch } from '@redux-store/hooks';
 
 import { useAppSelector } from '@redux-store/hooks';
+import { updateUser } from '@redux-slices/userSlice';
 
 export default function Login() {
   const { authToken } = useAppSelector((state) => state.user);
@@ -16,6 +18,7 @@ export default function Login() {
   const [password, setPassword] = useState('');
   const [time, setTime] = useState('');
   const [loading, setLoading] = useState(false);
+  const dispatch = useAppDispatch();
 
   useEffect(() => {
     return () => setMounted(false);
@@ -51,7 +54,6 @@ export default function Login() {
           const metadata = response.metadata as IFirebaseClaims;
           // To Check if User is Job Seeker
           // metadata.userType === firebaseUsers.jobSeeker
-          //TODO: Disaptch to global state
           setStatus({
             message:
               'User signed in successfully' +
@@ -59,6 +61,13 @@ export default function Login() {
               metadata.userType,
             show: true,
           });
+          dispatch(
+            updateUser({
+              authToken: response.code,
+              isLoggedIn: true,
+              email: email,
+            })
+          );
         }
       }
     });

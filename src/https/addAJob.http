@@ -5,7 +5,7 @@ Content-Type: application/json
 {
     "jobTitle":"Walmart Executive - 03",
     "description":"Manage and monitor day to day activies in Walmart",
-    "deadline": 1648959990438,
+    "deadline": 1648966296238,
     "workHours":8,
     "maxCapacity":5,
     "applied": 0,

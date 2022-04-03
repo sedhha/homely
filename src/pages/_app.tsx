@@ -6,6 +6,7 @@ import { useEffect } from "react";
 
 import store from "../app/store";
 import 'bootstrap/dist/css/bootstrap.css'
+import { ChakraProvider } from '@chakra-ui/react';
 
 
 import BaseWrapper from '@homely-components/Base/BaseWrapper';
@@ -18,7 +19,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <Provider store={store}>
-      <BaseWrapper Component={<Component {...pageProps} />} />
+      <ChakraProvider>
+        <BaseWrapper Component={<Component {...pageProps} />} />
+      </ChakraProvider>
     </Provider>
   );
 }

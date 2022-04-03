@@ -20,14 +20,12 @@ const IndexPage: NextPage = () => {
     );
   }, []);
 
-  function handleApplyJob(){
-    
-  }
+  function handleApplyJob() {}
 
   return (
     <>
+      <Header />
       <div className="container-lg">
-        <Header />
         <br />
         <h1>Job List</h1>
         <table className="table table-hover">
@@ -39,16 +37,20 @@ const IndexPage: NextPage = () => {
             </tr>
           </thead>
           <tbody>
-            {jobList.map((job) => (
-              <tr>
-                <th>{job["jobTitle"]}</th>
-                <th>{job["description"]}</th>
-                <th>{job["deadline"]}</th>
-                <th>
-                  <button className="btn btn-outline-primary">Apply</button>
-                </th>
-              </tr>
-            ))}
+            {jobList.length > 0 ? (
+              jobList.map((job) => (
+                <tr>
+                  <th>{job["jobTitle"]}</th>
+                  <th>{job["description"]}</th>
+                  <th>{job["deadline"]}</th>
+                  <th>
+                    <button className="btn btn-outline-primary">Apply</button>
+                  </th>
+                </tr>
+              ))
+            ) : (
+              <></>
+            )}
           </tbody>
         </table>
       </div>
