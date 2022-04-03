@@ -14,7 +14,7 @@ export default function BaseComponent({ Component }: Props) {
     onAuthStateChanged(Client.auth, (user) => {
       if (user !== null) {
         user.getIdToken().then((token) => {
-          dispatch(updateUser({ authToken: token }));
+          dispatch(updateUser({ authToken: token, isLoggedIn: true }));
         });
       }
     });

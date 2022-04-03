@@ -14,6 +14,7 @@ import { HamburgerIcon, CloseIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
+import { useAppSelector } from '@redux-store/hooks';
 
 const Links = [
   {
@@ -61,6 +62,7 @@ const NavLink = ({
 export default function Dashboard() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const router = useRouter();
+  const { email } = useAppSelector((state) => state.user);
 
   const navigateToCallback = (url: string) => {
     router.push(url);
@@ -120,7 +122,7 @@ export default function Dashboard() {
               rightIcon={<ArrowForwardIcon />}>
               Log Out
             </Button>
-            <Avatar size={'sm'} src={'https://i.pravatar.cc/500'} />
+            <Avatar size={'sm'} src={`https://i.pravatar.cc/150?u=${email}`} />
           </Flex>
         </Flex>
         {isOpen ? (
