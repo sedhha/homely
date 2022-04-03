@@ -22,7 +22,7 @@ const MyPosts: NextPage = () => {
               <th>Sample Description</th>
               <th>Tomorrow</th>
               <th>
-                <Link href={} className="btn btn-primary">Edit</Link>
+                <Link href="edit-post/32" className="btn btn-primary">Edit</Link>
               </th>
               <th>
                 <button className="btn btn-primary">Check Applications</button>

@@ -45,7 +45,7 @@ const EditJob: NextPage = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="container" >
         <Text fontSize="6xl">Create Job</Text>
         <br />
         <form onSubmit={handleCreateJob}>
