@@ -33,7 +33,10 @@ const EditPost: NextPage = () => {
           </div>
           <div className="form-group">
             <label>Deadline</label>
-            <DatePicker selected={deadline} onChange={(date: Date) => {}} />
+            <DatePicker
+              selected={new Date(deadline)}
+              onChange={(date: Date) => {}}
+            />
           </div>
           <button type="submit" className="btn btn-primary">
             Submit

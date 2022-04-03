@@ -25,6 +25,13 @@
       "@homely-components/*": ["src/components/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts", "src/components/header.js", "src/components/NavLink.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types.d.ts",
+    "src/components/header.tsx",
+    "src/components/NavLink.js"
+  ],
   "exclude": ["node_modules"]
 }

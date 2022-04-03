@@ -4,8 +4,6 @@ import { Text } from "@chakra-ui/react";
 import JobFields from "../mocks/jobFields.json";
 
 const Applications: NextPage = () => {
-  console.log(JobFields);
-
   return (
     <>
       <Header />
@@ -22,13 +20,13 @@ const Applications: NextPage = () => {
             </tr>
           </thead>
           <tbody>
-            {JobFields.map((jobfield) => (
-              <tr>
+            {JobFields.map((jobfield, id) => (
+              <tr key={id}>
                 <th>{jobfield.jobTitle}</th>
                 <th>{jobfield.description}</th>
-                <th>{new Date(jobfield.deadline).toLocaleDateString()}</th>
-                
-                <th>{"PENDIENT"}</th>
+                <th>{new Date(jobfield.deadline).toDateString()}</th>
+
+                <th>{'PENDIENT'}</th>
               </tr>
             ))}
           </tbody>

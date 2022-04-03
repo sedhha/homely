@@ -12,51 +12,50 @@ const profile: NextPage = () => {
         <Text fontSize="6xl">Profile</Text>
 
         <form>
-          <div className="form-group">
+          <div className='form-group'>
             <label>Name</label>
             <Input
               placeholder="Leave in blank if you don't want to update your name"
-              type="text"
-              className="form-control"
+              type='text'
+              className='form-control'
             />
           </div>
-          <div className="form-group">
+          <div className='form-group'>
             <label>Email address</label>
             <Input
-              type="email"
-              className="form-control"
+              type='email'
+              className='form-control'
               placeholder="Leave in blank if you don't want to update your email"
             />
           </div>
 
-          <div className="form-group">
+          <div className='form-group'>
             <label>Number</label>
 
             <Input
-              type="tel"
-              className="form-control"
+              type='tel'
+              className='form-control'
               placeholder="Leave in blank if you don't want to update your phone number"
             />
           </div>
 
-          <div className="form-group">
+          <div className='form-group'>
             <label>Non Profit Organization</label>
             <input
-              placeholder="Please enter the organizations separated by comma"
-              type="text"
-              className="form-control"
+              placeholder='Please enter the organizations separated by comma'
+              type='text'
+              className='form-control'
             />
           </div>
           <br />
 
           <Button
             borderRadius={0}
-            type="submit"
-            variant="solid"
-            colorScheme="teal"
-            width="full"
-          >
-            {" "}
+            type='submit'
+            variant='solid'
+            colorScheme='teal'
+            width='full'>
+            {' '}
             Update Profile
           </Button>
         </form>
